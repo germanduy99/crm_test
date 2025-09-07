@@ -17,6 +17,6 @@ describe('Crm-report', () => {
    cy.get('i.far.fa-analytics.moduleIconBlack').click({ force: true });
 
    cy.get('.filter-view .search-name').type('[Duyld]{enter}');
-
+   // fsdafds
   });
 });
