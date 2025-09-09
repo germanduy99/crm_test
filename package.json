@@ -14,11 +14,10 @@
   "devDependencies": {
     "cypress": "^15.1.0",
     "cypress-iframe": "^1.0.1",
+    "cypress-mysql": "^1.0.4",
+    "cypress-wait-until": "^3.0.2",
     "start-server-and-test": "^2.0.0",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "cypress-wait-until": "^2.0.0"
   }
 }

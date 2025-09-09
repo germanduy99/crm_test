@@ -1,25 +1,55 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+// ✅ Lấy body trong iframe
+Cypress.Commands.add('getIframeBody', (iframeSelector) => {
+  return cy
+    .get(iframeSelector)
+    .its('0.contentDocument.body').should('not.be.empty')
+    .then(cy.wrap);
+});
+
+// ✅ Chọn option random trong dropdown (fix duplicate value)
+Cypress.Commands.add('selectRandomOption', (iframeSelector, dropdownSelector, label) => {
+  cy.getIframeBody(iframeSelector).find(dropdownSelector).then($select => {
+    const $options = $select.find('option');
+
+    // lọc option hợp lệ
+    const validOptions = $options.toArray().filter(o => {
+      const val = (o.value || '').trim();
+      return val !== '' && !o.disabled && Cypress.$(o).is(':visible');
+    });
+
+    if (!validOptions.length) {
+      cy.log(`⚠️ [${label}] Không có option hợp lệ để chọn`);
+      return;
+    }
+
+    // random 1 option trong danh sách hợp lệ
+    const randomOption = Cypress._.sample(validOptions);
+    const index = $options.index(randomOption); // lấy index tuyệt đối trong select
+
+    // chọn option bằng index để tránh bug duplicate value
+    cy.wrap($select).then($el => {
+      $el[0].selectedIndex = index;
+      $el[0].dispatchEvent(new Event('change', { bubbles: true }));
+    });
+
+    cy.log(`🔀 [${label}] chọn random → index=${index}, value="${randomOption.value}", text="${randomOption.innerText}"`);
+  });
+});
+
+// ✅ Random time slot (08:00 → 18:00)
+Cypress.Commands.add('getRandomSlot', () => {
+  const hours = Math.floor(Math.random() * (18 - 8)) + 8; // 08h–17h
+  const minutes = Math.random() > 0.5 ? 0 : 30;
+
+  const startTime = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+
+  let endH = hours, endM = minutes + 30;
+  if (endM >= 60) { endM -= 60; endH++; }
+  endH += 1;
+  const endTime = `${String(endH).padStart(2, '0')}:${String(endM).padStart(2, '0')}`;
+
+  cy.log(`⏰ Random Slot: ${startTime} - ${endTime}`);
+
+  // ✅ Dùng cy.wrap để trả về vào chain
+  return cy.wrap({ startTime, endTime });
+});
