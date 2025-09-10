@@ -17,33 +17,40 @@ describe('Create-Class', () => {
   it('Create_Class', () => {
     cy.get('i.far.fa-id-card-alt.moduleIcon').should('be.visible');
     cy.wait(3000);
-
     cy.get('i.far.fa-users-class.moduleIcon').click({ force: true });
     cy.get('a.btn.btn-primary[rel="tooltip"]').click();
 
-    // Bên trong then để giữ scope của className
     cy.task('queryDb', 'SELECT MAX(CAST(SUBSTRING_INDEX(name, ".", -1) AS UNSIGNED)) AS lastNum FROM j_class WHERE name LIKE "Cypress.Automation_Test.%"')
       .then(result => {
         const lastNum = result[0].lastNum || -1;
         const newNum = lastNum + 1;
         const className = `Cypress.Automation_Test.${newNum}`;
 
-        cy.log(`🎯 Đã tạo class: ${className}`);
+        const log = (action, message) => {
+          const now = new Date();
+          const date = now.toISOString().split('T')[0]; // YYYY-MM-DD
+          const time = now.toLocaleTimeString('vi-VN');
+          const content = `[${date} ${time}] [${action}] ${message}`;
+          cy.task('writeLogToFile', {
+            fileName: `${date}.log`,
+            content,
+          });
+        };
 
-        // Nhập Class Name
+        log('INFO', `Bắt đầu tạo class: ${className}`);
+
         cy.getIframeBody('iframe#bwc-frame')
           .find('input#name[title="Class Name"]')
           .should('be.visible')
           .clear()
           .type(className, { force: true });
 
-        // Chọn dropdowns random
         cy.selectRandomOption('iframe#bwc-frame', 'select#class_type', 'Class Type');
         cy.selectRandomOption('iframe#bwc-frame', 'select#teaching_method', 'Teaching Method');
         cy.selectRandomOption('iframe#bwc-frame', 'select#kind_of_course', 'Kind Of Course');
         cy.selectRandomOption('iframe#bwc-frame', 'select#level', 'Level');
 
-        // Random Start Date
+        // Random ngày
         const dayMap = { 0: 'Sun', 1: 'Mon', 2: 'Tue', 3: 'Wed', 4: 'Thu', 5: 'Fri', 6: 'Sat' };
         function getRandomFutureDate() {
           const today = new Date();
@@ -65,9 +72,9 @@ describe('Create-Class', () => {
           .clear()
           .type(formattedDate, { force: true })
           .then(() => {
-            cy.log(`📅 Random start date: ${formattedDate} → weekday: ${mainDay}`);
+            log('INFO', `Ngày bắt đầu random: ${formattedDate} (${mainDay})`);
 
-            // Weekly schedule random
+            // Weekly schedule
             const allDays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
             const numDays = Math.floor(Math.random() * 7) + 1;
             let selectedDays = [mainDay];
@@ -75,7 +82,7 @@ describe('Create-Class', () => {
             const shuffled = otherDays.sort(() => 0.5 - Math.random());
             selectedDays = selectedDays.concat(shuffled.slice(0, numDays - 1));
 
-            cy.log(`🗓 Weekly Schedule sẽ chọn: ${selectedDays.join(', ')}`);
+            log('INFO', `Weekly Schedule: ${selectedDays.join(', ')}`);
 
             selectedDays.forEach(day => {
               cy.getIframeBody('iframe#bwc-frame')
@@ -87,13 +94,12 @@ describe('Create-Class', () => {
             const tsId = `#TS_${mainDay}`;
 
             cy.getRandomSlot().then(({ startTime, endTime }) => {
-              cy.log(`⏰ Time slot random: ${startTime} - ${endTime}`);
+              log('INFO', `Time Slot: ${startTime} - ${endTime}`);
 
               cy.getIframeBody('iframe#bwc-frame')
                 .find(tsId)
                 .should('be.visible')
                 .within(() => {
-                  // Chọn activity
                   cy.get('select.select-activity').then($select => {
                     const allOptions = [...$select.find('option')];
                     const validOptions = allOptions.filter(o => {
@@ -110,15 +116,14 @@ describe('Create-Class', () => {
                         $sel.trigger('change');
                       });
 
-                      cy.log(`🎲 Activity random chọn → index=${absoluteIndex}, value="${chosen.value}", text="${chosen.innerText}"`);
+                      log('INFO', `Activity chọn: ${chosen.innerText} (value=${chosen.value})`);
                     } else {
-                      cy.log('⚠️ Không tìm thấy activity hợp lệ');
+                      log('WARN', 'Không tìm thấy activity hợp lệ');
                     }
                   });
 
                   cy.get('input.time.start').clear().type(startTime, { force: true });
                   cy.get('input.time.end').clear().type(endTime, { force: true });
-
                   cy.get('button.copy-to-all').click({ force: true });
                 });
 
@@ -134,7 +139,7 @@ describe('Create-Class', () => {
                 .should('be.visible')
                 .click({ force: true });
 
-              cy.log(`✅ Class ${className} đã được lưu thành công!`);
+              log('SUCCESS', `Class đã được lưu: ${className}`);
             });
           });
       });

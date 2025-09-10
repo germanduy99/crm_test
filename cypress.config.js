@@ -1,5 +1,7 @@
 const defineConfig = require('cypress').defineConfig;
 const mysql = require('mysql2/promise');
+const fs = require('fs');
+const path = require('path');
 
 // Hàm query DB
 async function queryTestDb(query, config) {
@@ -22,8 +24,26 @@ module.exports = defineConfig({
 
     setupNodeEvents(on, config) {
       on('task', {
-        queryDb: (query) => queryTestDb(query, config)
+        queryDb: (query) => queryTestDb(query, config),
+
+        // 👇 Task để ghi log vào file
+        writeLogToFile({ fileName, content }) {
+          const logsDir = path.join(__dirname, 'logs');
+
+          // Tạo thư mục nếu chưa có
+          if (!fs.existsSync(logsDir)) {
+            fs.mkdirSync(logsDir);
+          }
+
+          const filePath = path.join(logsDir, fileName);
+
+          // Ghi thêm log mới vào file
+          fs.appendFileSync(filePath, content + '\n', 'utf8');
+
+          return null;
+        }
       });
+
       return config;
     },
   },

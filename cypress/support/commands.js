@@ -53,3 +53,16 @@ Cypress.Commands.add('getRandomSlot', () => {
   // ✅ Dùng cy.wrap để trả về vào chain
   return cy.wrap({ startTime, endTime });
 });
+
+Cypress.Commands.add('logToFile', (message) => {
+  const now = new Date();
+  const fileName = `${now.toISOString().split('T')[0]}.log`; // e.g. 2025-09-10.log
+
+  const time = now.toLocaleTimeString('en-GB');
+  const timestampedMessage = `[${time}] ${message}`;
+
+  cy.task('writeLogToFile', {
+    fileName,
+    content: timestampedMessage,
+  });
+});
