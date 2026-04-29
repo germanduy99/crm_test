@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Cypress runtime artifacts
+cypress/screenshots/**
+!cypress/screenshots/.gitkeep
+cypress/videos/
+cypress/downloads/
