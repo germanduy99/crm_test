@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-04-29T04:38:13.650Z",
+  "runTimestamp": 1777437447799,
+  "baseUrl": "https://stagingcrm.scotsenglish.edu.vn/index.php#Home",
+  "results": [
+    {
+      "module": "Contacts/Students",
+      "key": "contacts",
+      "requestedName": "AUTO_VERIFY_CONTACT_1777437447799",
+      "visibleTitle": "Teacher Dashboard Create Cancel Delete Save Cancel Save",
+      "saved": false,
+      "urlAfterSave": "https://stagingcrm.scotsenglish.edu.vn/index.php#Contacts/create",
+      "routeAfterSave": "#Contacts/create",
+      "recordIdOrCode": "create",
+      "successText": "Error Please resolve any errors before proceeding.",
+      "validationText": "Error Please resolve any errors before proceeding."
+    },
+    {
+      "module": "Accounts",
+      "key": "accounts",
+      "requestedName": "AUTO_VERIFY_ACCOUNT_1777437447799",
+      "visibleTitle": "Teacher Dashboard Create Cancel Delete Save Cancel Save",
+      "saved": false,
+      "urlAfterSave": "https://stagingcrm.scotsenglish.edu.vn/index.php#Accounts/create",
+      "routeAfterSave": "#Accounts/create",
+      "recordIdOrCode": "create",
+      "successText": "Error Please resolve any errors before proceeding.",
+      "validationText": "Error Please resolve any errors before proceeding."
+    },
+    {
+      "module": "Rooms",
+      "key": "rooms",
+      "requestedName": "AUTO_VERIFY_ROOM_1777437447799",
+      "visibleTitle": "",
+      "saved": true,
+      "urlAfterSave": "https://stagingcrm.scotsenglish.edu.vn/index.php#bwc/index.php?module=C_Rooms&action=EditView",
+      "routeAfterSave": "#bwc/index.php?module=C_Rooms&action=EditView",
+      "recordIdOrCode": "index.php",
+      "successText": "",
+      "validationText": ""
+    }
+  ]
+}
