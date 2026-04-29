@@ -1,0 +1,22 @@
+[
+  {
+    "idx": 0,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "",
+    "class": "search-query",
+    "text": "",
+    "outer": "<input type=\"text\" value=\"\" class=\"search-query\" placeholder=\"Search\" data-action=\"search_bar\" aria-label=\"Global Search\">"
+  },
+  {
+    "idx": 1,
+    "tag": "input",
+    "type": "text",
+    "name": "sweetspot-searchinput",
+    "id": "",
+    "class": "",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"sweetspot-searchinput\">"
+  }
+]

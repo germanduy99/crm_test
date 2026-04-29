@@ -1,0 +1,482 @@
+[
+  {
+    "idx": 0,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "",
+    "class": "search-query",
+    "text": "",
+    "outer": "<input type=\"text\" value=\"\" class=\"search-query\" placeholder=\"Search\" data-action=\"search_bar\" aria-label=\"Global Search\">"
+  },
+  {
+    "idx": 1,
+    "tag": "input",
+    "type": "text",
+    "name": "sweetspot-searchinput",
+    "id": "",
+    "class": "",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"sweetspot-searchinput\">"
+  },
+  {
+    "idx": 2,
+    "tag": "input",
+    "type": "text",
+    "name": "name",
+    "id": "",
+    "class": "inherit-width required",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"name\" value=\"\" maxlength=\"150\" class=\"inherit-width required\" placeholder=\"Required\" aria-label=\"Name\">"
+  },
+  {
+    "idx": 3,
+    "tag": "label",
+    "type": "",
+    "name": "",
+    "id": "",
+    "class": "select2-offscreen",
+    "text": "",
+    "outer": "<label for=\"s2id_autogen24\" class=\"select2-offscreen\"></label>"
+  },
+  {
+    "idx": 4,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "s2id_autogen24",
+    "class": "select2-focusser select2-offscreen",
+    "text": "",
+    "outer": "<input class=\"select2-focusser select2-offscreen\" type=\"text\" aria-haspopup=\"true\" role=\"button\" aria-labelledby=\"select2-chosen-24\" id=\"s2id_autogen24\">"
+  },
+  {
+    "idx": 5,
+    "tag": "label",
+    "type": "",
+    "name": "",
+    "id": "",
+    "class": "select2-offscreen",
+    "text": "",
+    "outer": "<label for=\"s2id_autogen24_search\" class=\"select2-offscreen\"></label>"
+  },
+  {
+    "idx": 6,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "s2id_autogen24_search",
+    "class": "select2-input",
+    "text": "",
+    "outer": "<input type=\"text\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" class=\"select2-input\" role=\"combobox\" aria-expanded=\"true\" aria-autocomplete=\"list\" aria-owns=\"select2-results-24\" id=\"s2id_autogen24_search\" placeholder=\"\">"
+  },
+  {
+    "idx": 7,
+    "tag": "input",
+    "type": "hidden",
+    "name": "status",
+    "id": "",
+    "class": "select2",
+    "text": "",
+    "outer": "<input type=\"hidden\" class=\"select2\" name=\"status\" tabindex=\"-1\" title=\"\" value=\"New\" aria-label=\"Status\" style=\"display: none;\">"
+  },
+  {
+    "idx": 8,
+    "tag": "input",
+    "type": "text",
+    "name": "account_id",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"account_id\" value=\"\" maxlength=\"50\" class=\"inherit-width\" aria-label=\"Account ID\">"
+  },
+  {
+    "idx": 9,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "",
+    "class": "newEmail input-append required",
+    "text": "",
+    "outer": "<input type=\"text\" class=\"newEmail input-append required\" maxlength=\"100\" placeholder=\"(Required) Add email\" aria-label=\"Email Address\">"
+  },
+  {
+    "idx": 10,
+    "tag": "label",
+    "type": "",
+    "name": "",
+    "id": "",
+    "class": "select2-offscreen",
+    "text": "",
+    "outer": "<label for=\"s2id_autogen26\" class=\"select2-offscreen\"></label>"
+  },
+  {
+    "idx": 11,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "s2id_autogen26",
+    "class": "select2-focusser select2-offscreen",
+    "text": "",
+    "outer": "<input class=\"select2-focusser select2-offscreen\" type=\"text\" aria-haspopup=\"true\" role=\"button\" aria-labelledby=\"select2-chosen-26\" id=\"s2id_autogen26\">"
+  },
+  {
+    "idx": 12,
+    "tag": "label",
+    "type": "",
+    "name": "",
+    "id": "",
+    "class": "select2-offscreen",
+    "text": "",
+    "outer": "<label for=\"s2id_autogen26_search\" class=\"select2-offscreen\"></label>"
+  },
+  {
+    "idx": 13,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "s2id_autogen26_search",
+    "class": "select2-input",
+    "text": "",
+    "outer": "<input type=\"text\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" class=\"select2-input\" role=\"combobox\" aria-expanded=\"true\" aria-autocomplete=\"list\" aria-owns=\"select2-results-26\" id=\"s2id_autogen26_search\" placeholder=\"\">"
+  },
+  {
+    "idx": 14,
+    "tag": "input",
+    "type": "hidden",
+    "name": "account_type",
+    "id": "",
+    "class": "select2 required",
+    "text": "",
+    "outer": "<input type=\"hidden\" class=\"select2 required\" name=\"account_type\" placeholder=\"Required\" tabindex=\"-1\" title=\"\" value=\"\" aria-label=\"Type\" style=\"display: none;\">"
+  },
+  {
+    "idx": 15,
+    "tag": "input",
+    "type": "text",
+    "name": "phone_office",
+    "id": "",
+    "class": "inherit-width required",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"phone_office\" value=\"\" maxlength=\"100\" class=\"inherit-width required\" placeholder=\"Required\" aria-label=\"Office Phone\">"
+  },
+  {
+    "idx": 16,
+    "tag": "input",
+    "type": "text",
+    "name": "website",
+    "id": "",
+    "class": "input-large",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"website\" value=\"\" maxlength=\"255\" class=\"input-large\" aria-label=\"Website\">"
+  },
+  {
+    "idx": 17,
+    "tag": "input",
+    "type": "text",
+    "name": "tax_code",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"tax_code\" value=\"\" maxlength=\"100\" class=\"inherit-width\" aria-label=\"Tax Code\">"
+  },
+  {
+    "idx": 18,
+    "tag": "input",
+    "type": "checkbox",
+    "name": "",
+    "id": "",
+    "class": "",
+    "text": "",
+    "outer": "<input type=\"checkbox\" aria-label=\"Term Accepted\">"
+  },
+  {
+    "idx": 19,
+    "tag": "input",
+    "type": "text",
+    "name": "legal_name",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"legal_name\" value=\"\" maxlength=\"255\" class=\"inherit-width\" aria-label=\"Legal Name\">"
+  },
+  {
+    "idx": 20,
+    "tag": "input",
+    "type": "text",
+    "name": "legal_representative",
+    "id": "",
+    "class": "inherit-width required",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"legal_representative\" value=\"\" maxlength=\"150\" class=\"inherit-width required\" placeholder=\"Required\" aria-label=\"Legal Representative\">"
+  },
+  {
+    "idx": 21,
+    "tag": "input",
+    "type": "text",
+    "name": "project_contact_point",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"project_contact_point\" value=\"\" maxlength=\"150\" class=\"inherit-width\" aria-label=\"Project Contact Point\">"
+  },
+  {
+    "idx": 22,
+    "tag": "textarea",
+    "type": "",
+    "name": "billing_address_street",
+    "id": "",
+    "class": "required",
+    "text": "",
+    "outer": "<textarea rows=\"\" cols=\"\" name=\"billing_address_street\" placeholder=\"(Required) Primary Full Address\" class=\"required\" aria-label=\"Primary Full Address\"></textarea>"
+  },
+  {
+    "idx": 23,
+    "tag": "input",
+    "type": "text",
+    "name": "billing_address_postalcode",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"billing_address_postalcode\" value=\"\" maxlength=\"20\" placeholder=\"Primary Address Postal Code\" class=\"inherit-width\" aria-label=\"Billing Postal Code\">"
+  },
+  {
+    "idx": 24,
+    "tag": "input",
+    "type": "text",
+    "name": "billing_address_state",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"billing_address_state\" value=\"\" maxlength=\"100\" placeholder=\"Primary Address District\" class=\"inherit-width\" aria-label=\"Billing State\">"
+  },
+  {
+    "idx": 25,
+    "tag": "input",
+    "type": "text",
+    "name": "billing_address_city",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"billing_address_city\" value=\"\" maxlength=\"100\" placeholder=\"Primary Address City\" class=\"inherit-width\" aria-label=\"Billing City\">"
+  },
+  {
+    "idx": 26,
+    "tag": "input",
+    "type": "text",
+    "name": "billing_address_country",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"billing_address_country\" value=\"\" placeholder=\"Primary Address Country\" class=\"inherit-width\" aria-label=\"Billing Country\">"
+  },
+  {
+    "idx": 27,
+    "tag": "input",
+    "type": "text",
+    "name": "pri_latitude",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"pri_latitude\" value=\"\" class=\"inherit-width\" aria-label=\"pri_latitude\">"
+  },
+  {
+    "idx": 28,
+    "tag": "input",
+    "type": "text",
+    "name": "pri_longitude",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"pri_longitude\" value=\"\" class=\"inherit-width\" aria-label=\"pri_longitude\">"
+  },
+  {
+    "idx": 29,
+    "tag": "textarea",
+    "type": "",
+    "name": "description",
+    "id": "",
+    "class": "",
+    "text": "",
+    "outer": "<textarea rows=\"3\" cols=\"40\" name=\"description\" aria-label=\"Description\"></textarea>"
+  },
+  {
+    "idx": 30,
+    "tag": "label",
+    "type": "",
+    "name": "",
+    "id": "",
+    "class": "select2-offscreen",
+    "text": "",
+    "outer": "<label for=\"s2id_autogen28\" class=\"select2-offscreen\"></label>"
+  },
+  {
+    "idx": 31,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "s2id_autogen28",
+    "class": "select2-focusser select2-offscreen",
+    "text": "",
+    "outer": "<input class=\"select2-focusser select2-offscreen\" type=\"text\" aria-haspopup=\"true\" role=\"button\" aria-labelledby=\"select2-chosen-28\" id=\"s2id_autogen28\">"
+  },
+  {
+    "idx": 32,
+    "tag": "label",
+    "type": "",
+    "name": "",
+    "id": "",
+    "class": "select2-offscreen",
+    "text": "",
+    "outer": "<label for=\"s2id_autogen28_search\" class=\"select2-offscreen\"></label>"
+  },
+  {
+    "idx": 33,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "s2id_autogen28_search",
+    "class": "select2-input",
+    "text": "",
+    "outer": "<input type=\"text\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" class=\"select2-input\" role=\"combobox\" aria-expanded=\"true\" aria-autocomplete=\"list\" aria-owns=\"select2-results-28\" id=\"s2id_autogen28_search\" placeholder=\"\">"
+  },
+  {
+    "idx": 34,
+    "tag": "input",
+    "type": "hidden",
+    "name": "commission_type",
+    "id": "",
+    "class": "select2",
+    "text": "",
+    "outer": "<input type=\"hidden\" class=\"select2\" name=\"commission_type\" tabindex=\"-1\" title=\"\" value=\"\" aria-label=\"Commission Type\" style=\"display: none;\">"
+  },
+  {
+    "idx": 35,
+    "tag": "input",
+    "type": "text",
+    "name": "bank_name",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"bank_name\" value=\"\" maxlength=\"255\" class=\"inherit-width\" aria-label=\"Bank Name\">"
+  },
+  {
+    "idx": 36,
+    "tag": "input",
+    "type": "text",
+    "name": "commission_value",
+    "id": "",
+    "class": "inherit-width",
+    "text": "",
+    "outer": "<input type=\"text\" name=\"commission_value\" value=\"\" class=\"inherit-width\" aria-label=\"Commission Value\">"
+  },
+  {
+    "idx": 37,
+    "tag": "textarea",
+    "type": "",
+    "name": "bank_account",
+    "id": "",
+    "class": "",
+    "text": "",
+    "outer": "<textarea rows=\"\" cols=\"\" name=\"bank_account\" aria-label=\"Bank Account\"></textarea>"
+  },
+  {
+    "idx": 38,
+    "tag": "label",
+    "type": "",
+    "name": "",
+    "id": "",
+    "class": "select2-offscreen",
+    "text": "",
+    "outer": "<label for=\"s2id_autogen30\" class=\"select2-offscreen\"></label>"
+  },
+  {
+    "idx": 39,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "s2id_autogen30",
+    "class": "select2-focusser select2-offscreen",
+    "text": "",
+    "outer": "<input class=\"select2-focusser select2-offscreen\" type=\"text\" aria-haspopup=\"true\" role=\"button\" aria-labelledby=\"select2-chosen-30\" id=\"s2id_autogen30\">"
+  },
+  {
+    "idx": 40,
+    "tag": "label",
+    "type": "",
+    "name": "",
+    "id": "",
+    "class": "select2-offscreen",
+    "text": "",
+    "outer": "<label for=\"s2id_autogen30_search\" class=\"select2-offscreen\"></label>"
+  },
+  {
+    "idx": 41,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "s2id_autogen30_search",
+    "class": "select2-input",
+    "text": "",
+    "outer": "<input type=\"text\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" class=\"select2-input\" role=\"combobox\" aria-expanded=\"true\" aria-autocomplete=\"list\" aria-owns=\"select2-results-30\" id=\"s2id_autogen30_search\" placeholder=\"\">"
+  },
+  {
+    "idx": 42,
+    "tag": "input",
+    "type": "hidden",
+    "name": "team_name",
+    "id": "",
+    "class": "select2 inherit-width required",
+    "text": "",
+    "outer": "<input type=\"hidden\" name=\"team_name\" class=\"select2 inherit-width required\" value=\"1\" data-rname=\"Head Office \" data-index=\"0\" placeholder=\"Required\" tabindex=\"-1\" title=\"\" aria-label=\"Center\" style=\"display: none;\">"
+  },
+  {
+    "idx": 43,
+    "tag": "label",
+    "type": "",
+    "name": "",
+    "id": "",
+    "class": "select2-offscreen",
+    "text": "",
+    "outer": "<label for=\"s2id_autogen32\" class=\"select2-offscreen\"></label>"
+  },
+  {
+    "idx": 44,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "s2id_autogen32",
+    "class": "select2-focusser select2-offscreen",
+    "text": "",
+    "outer": "<input class=\"select2-focusser select2-offscreen\" type=\"text\" aria-haspopup=\"true\" role=\"button\" aria-labelledby=\"select2-chosen-32\" id=\"s2id_autogen32\">"
+  },
+  {
+    "idx": 45,
+    "tag": "label",
+    "type": "",
+    "name": "",
+    "id": "",
+    "class": "select2-offscreen",
+    "text": "",
+    "outer": "<label for=\"s2id_autogen32_search\" class=\"select2-offscreen\"></label>"
+  },
+  {
+    "idx": 46,
+    "tag": "input",
+    "type": "text",
+    "name": "",
+    "id": "s2id_autogen32_search",
+    "class": "select2-input",
+    "text": "",
+    "outer": "<input type=\"text\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" class=\"select2-input\" role=\"combobox\" aria-expanded=\"true\" aria-autocomplete=\"list\" aria-owns=\"select2-results-32\" id=\"s2id_autogen32_search\" placeholder=\"\">"
+  },
+  {
+    "idx": 47,
+    "tag": "input",
+    "type": "hidden",
+    "name": "assigned_user_name",
+    "id": "",
+    "class": "select2 inherit-width required",
+    "text": "",
+    "outer": "<input type=\"hidden\" name=\"assigned_user_name\" class=\"select2 inherit-width required\" value=\"7037ad40-2b1b-11f0-84ca-b08e1b8a4374\" data-rname=\"Trịnh Tiến Anh\" placeholder=\"Required\" tabindex=\"-1\" title=\"\" aria-label=\"Assigned to\" style=\"display: none;\">"
+  }
+]

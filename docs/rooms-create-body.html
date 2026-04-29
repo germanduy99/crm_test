@@ -1,0 +1,2486 @@
+
+<div id="dotbcrm">
+    <div id="lumia">
+        <div id="alerts" class="alert-top">
+            
+        </div>
+        <div id="header" class="" style=""><div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="nav-collapse">
+        <div class="module-list"><ul class="nav megamenu" role="navigation" aria-label="main module navigation" data-container="module-list">
+    <li class="dropdown" data-module="Home"><span class="btn-group home" title="Dashboard">
+    <a class="cube btn btn-invisible btn-link" href="#Home" data-route="#Home" track="click:cube" aria-label="Home"><img src="styleguide/assets/img/logo.png" alt="DotBCRM"></a>
+    
+    <button type="button" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:cube-dropdown" aria-label="Home - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+    <div class="dropdown-menu scroll">
+        <ul role="menu">
+            
+                
+                    <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_CREATE_DASHBOARD_MENU" href="#Home/create" data-route="#Home/create" track="click:#Home/create"><i class="fa fa-plus"></i>
+                        
+                            Create Dashboard
+                        
+                        </a>
+                    </li>
+                
+            
+                
+                    <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_ACTIVITIES" href="#activities" data-route="#activities" track="click:#activities"><i class="fa fa-clock-o"></i>
+                        
+                            Activity Stream
+                        
+                        </a>
+                    </li>
+                
+            
+                
+                    <li class="divider"></li>
+                
+            
+                
+                    <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_MANAGE_DASHBOARDS" href="#Dashboards?moduleName=Home" data-route="#Dashboards?moduleName=Home" track="click:#Dashboards?moduleName=Home"><i class="fa fa-bars"></i>
+                        
+                            Manage Dashboards
+                        
+                        </a>
+                    </li>
+                
+            
+            <li class="divider" data-container="dashboards"></li>
+            
+            <li class="divider" data-container="recently-viewed"></li>
+        </ul>
+    </div>
+    
+
+</span></li><li class="dropdown" data-module="Calendar"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#bwc/index.php?module=Calendar&amp;action=index" data-route="#bwc/index.php?module=Calendar&amp;action=index" track="click:me:Calendar" aria-label="Calendar">
+        
+            <i class="far fa-calendar-alt moduleIcon"></i>
+        
+        &nbsp;Calendar
+    </a>
+    
+        <button type="button" id="Calendar" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Calendar - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_MEETING" href="#Meetings/create" data-route="#Meetings/create" track="click:#Meetings/create"><i class="fa fa-plus"></i>Schedule Meeting</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_CALL" href="#Calls/create" data-route="#Calls/create" track="click:#Calls/create"><i class="fa fa-plus"></i>Schedule Call</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_TASK" href="#Tasks/create" data-route="#Tasks/create" track="click:#Tasks/create"><i class="fa fa-plus"></i>Create Task</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_VIEW_CALENDAR" href="#bwc/index.php?module=Calendar&amp;action=index&amp;view=day" data-route="#bwc/index.php?module=Calendar&amp;action=index&amp;view=day" track="click:#bwc/index.php?module=Calendar&amp;action=index&amp;view=day"><i class="fa fa-bars"></i>Today</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown" data-module="Prospects"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Prospects" data-route="#Prospects" track="click:me:Prospects" aria-label="Targets">
+        
+            <i class="far fa-id-card-alt moduleIcon"></i>
+        
+        &nbsp;Targets
+    </a>
+    
+        <button type="button" id="Prospects" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Targets - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PROSPECT" href="#Prospects/create" data-route="#Prospects/create" track="click:#Prospects/create"><i class="fa fa-plus"></i>Create Target</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_VCARD" href="#Prospects/vcard-import" data-route="#Prospects/vcard-import" track="click:#Prospects/vcard-import"><i class="fa fa-plus"></i>Create Target From vCard</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_PROSPECT_LIST" href="#Prospects" data-route="#Prospects" track="click:#Prospects"><i class="fa fa-bars"></i>View Targets</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_PROSPECTS" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Prospects&amp;return_module=Prospects&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Prospects&amp;return_module=Prospects&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Prospects&amp;return_module=Prospects&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Targets</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown" data-module="Leads"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Leads" data-route="#Leads" track="click:me:Leads" aria-label="Leads">
+        
+            <i class="far fa-user-crown moduleIcon"></i>
+        
+        &nbsp;Leads
+    </a>
+    
+        <button type="button" id="Leads" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Leads - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_LEAD" href="#Leads/create" data-route="#Leads/create" track="click:#Leads/create"><i class="fa fa-plus"></i>Create Lead</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LEAD_LIST" href="#Leads" data-route="#Leads" track="click:#Leads"><i class="fa fa-bars"></i>View Leads</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LEAD_REPORTS" href="#Reports?filterModule=Leads" data-route="#Reports?filterModule=Leads" track="click:#Reports?filterModule=Leads"><i class="fa fa-user-chart"></i>View Lead Reports</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_LEADS" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Leads&amp;return_module=Leads&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Leads&amp;return_module=Leads&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Leads&amp;return_module=Leads&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Leads</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="Contacts"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Contacts" data-route="#Contacts" track="click:me:Contacts" aria-label="Students">
+        
+            <i class="far fa-graduation-cap moduleIcon"></i>
+        
+        &nbsp;Students
+    </a>
+    
+        <button type="button" id="Contacts" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Students - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_CONTACT" href="#Contacts/create" data-route="#Contacts/create" track="click:#Contacts/create"><i class="fa fa-plus"></i>Create Student</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_CONTACT_LIST" href="#Contacts" data-route="#Contacts" track="click:#Contacts"><i class="fa fa-bars"></i>View Students</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_CONTACT_REPORTS" href="#Reports?filterModule=Contacts" data-route="#Reports?filterModule=Contacts" track="click:#Reports?filterModule=Contacts"><i class="fa fa-user-chart"></i>View Student Reports</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_CONTACTS" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Contacts&amp;return_module=Contacts&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Contacts&amp;return_module=Contacts&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Contacts&amp;return_module=Contacts&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Students</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_SEND_SMS" href="#bwc/index.php?module=C_SMS&amp;action=sendSMS" data-route="#bwc/index.php?module=C_SMS&amp;action=sendSMS" track="click:#bwc/index.php?module=C_SMS&amp;action=sendSMS"><i class="fa fa-comments"></i>Send SMS</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="Quotes"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Quotes" data-route="#Quotes" track="click:me:Quotes" aria-label="Sale Orders">
+        
+            <i class="far fa-shopping-cart moduleIcon"></i>
+        
+        &nbsp;Sale Orders
+    </a>
+    
+        <button type="button" id="Quotes" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Sale Orders - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_QUOTE" href="#Quotes/create" data-route="#Quotes/create" track="click:#Quotes/create"><i class="fa fa-plus"></i>Create Sale Order</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_QUOTE_LIST" href="#Quotes" data-route="#Quotes" track="click:#Quotes"><i class="fa fa-bars"></i>View Sale Orders</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_QUOTE_REPORTS" href="#Reports?filterModule=Quotes" data-route="#Reports?filterModule=Quotes" track="click:#Reports?filterModule=Quotes"><i class="fa fa-user-chart"></i>View Sale Order Reports</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_Class"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_Class" data-route="#J_Class" track="click:me:J_Class" aria-label="Classes">
+        
+            <i class="far fa-users-class moduleIcon"></i>
+        
+        &nbsp;Classes
+    </a>
+    
+        <button type="button" id="J_Class" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Classes - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_Class/create" data-route="#J_Class/create" track="click:#J_Class/create"><i class="fa fa-plus"></i>Create Class</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_Class" data-route="#J_Class" track="click:#J_Class"><i class="fa fa-bars"></i>View Classes</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_VIEW_CALENDAR" href="#bwc/index.php?module=Calendar&amp;action=index&amp;view=week" data-route="#bwc/index.php?module=Calendar&amp;action=index&amp;view=week" track="click:#bwc/index.php?module=Calendar&amp;action=index&amp;view=week"><i class="fa fa-calendar-alt"></i>View on Calendar</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_IMPORT_SCHEDULER" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Meetings&amp;return_module=Meetings&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Meetings&amp;return_module=Meetings&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Meetings&amp;return_module=Meetings&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Scheduler</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="Meetings"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Meetings" data-route="#Meetings" track="click:me:Meetings" aria-label="Schedules">
+        
+            <i class="far fa-calendar-check moduleIcon"></i>
+        
+        &nbsp;Schedules
+    </a>
+    
+        <button type="button" id="Meetings" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Schedules - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_TESTING" href="#bwc/index.php?module=Meetings&amp;action=EditView&amp;return_module=Meetings&amp;return_action=DetailView&amp;type=PT" data-route="#bwc/index.php?module=Meetings&amp;action=EditView&amp;return_module=Meetings&amp;return_action=DetailView&amp;type=PT" track="click:#bwc/index.php?module=Meetings&amp;action=EditView&amp;return_module=Meetings&amp;return_action=DetailView&amp;type=PT"><i class="fa fa-plus"></i>Schedule Placement Test</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_DEMO" href="#bwc/index.php?module=Meetings&amp;action=EditView&amp;return_module=Meetings&amp;return_action=DetailView&amp;type=Demo" data-route="#bwc/index.php?module=Meetings&amp;action=EditView&amp;return_module=Meetings&amp;return_action=DetailView&amp;type=Demo" track="click:#bwc/index.php?module=Meetings&amp;action=EditView&amp;return_module=Meetings&amp;return_action=DetailView&amp;type=Demo"><i class="fa fa-plus"></i>Schedule Demo</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_MEETING" href="#Meetings/create" data-route="#Meetings/create" track="click:#Meetings/create"><i class="fa fa-plus"></i>Schedule Meeting</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="Reports"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Reports" data-route="#Reports" track="click:me:Reports" aria-label="Reports">
+        
+            <i class="far fa-analytics moduleIcon"></i>
+        
+        &nbsp;Reports
+    </a>
+    
+        <button type="button" id="Reports" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Reports - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_CREATE_REPORT" href="#bwc/index.php?module=Reports&amp;report_module=&amp;action=index&amp;page=report&amp;Create+Custom+Report=Create+Custom+Report" data-route="#bwc/index.php?module=Reports&amp;report_module=&amp;action=index&amp;page=report&amp;Create+Custom+Report=Create+Custom+Report" track="click:#bwc/index.php?module=Reports&amp;report_module=&amp;action=index&amp;page=report&amp;Create+Custom+Report=Create+Custom+Report"><i class="fa fa-plus"></i>Create Report</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_ALL_REPORTS" href="#Reports" data-route="#Reports" track="click:#Reports"><i class="fa fa-bars"></i>View Reports</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_REPORT_SCHEDULES" href="#ReportSchedules" data-route="#ReportSchedules" track="click:#ReportSchedules"><i class="fa fa-user-chart"></i>Report Schedules</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_Loyalty"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_Loyalty" data-route="#J_Loyalty" track="click:me:J_Loyalty" aria-label="Loyalty">
+        
+            <i class="far fa-id-card moduleIcon"></i>
+        
+        &nbsp;Loyalty
+    </a>
+    
+        <button type="button" id="J_Loyalty" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Loyalty - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_Loyalty/create" data-route="#J_Loyalty/create" track="click:#J_Loyalty/create"><i class="fa fa-plus"></i>Create Loyalty</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_Loyalty" data-route="#J_Loyalty" track="click:#J_Loyalty"><i class="fa fa-bars"></i>View Loyalty</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_J_LOYALTY" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Loyalty&amp;return_module=J_Loyalty&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Loyalty&amp;return_module=J_Loyalty&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Loyalty&amp;return_module=J_Loyalty&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Loyalty</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="C_Teachers"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#C_Teachers" data-route="#C_Teachers" track="click:me:C_Teachers" aria-label="Teachers">
+        
+            <i class="far fa-chalkboard-teacher moduleIcon"></i>
+        
+        &nbsp;Teachers
+    </a>
+    
+        <button type="button" id="C_Teachers" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Teachers - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#bwc/index.php?module=C_Teachers&amp;action=EditView&amp;type=Teacher" data-route="#bwc/index.php?module=C_Teachers&amp;action=EditView&amp;type=Teacher" track="click:#bwc/index.php?module=C_Teachers&amp;action=EditView&amp;type=Teacher"><i class="fa fa-plus"></i>Create Teacher</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD_TA" href="#bwc/index.php?module=C_Teachers&amp;action=EditView&amp;type=TA" data-route="#bwc/index.php?module=C_Teachers&amp;action=EditView&amp;type=TA" track="click:#bwc/index.php?module=C_Teachers&amp;action=EditView&amp;type=TA"><i class="fa fa-plus"></i>Create TA</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#C_Teachers" data-route="#C_Teachers" track="click:#C_Teachers"><i class="fa fa-bars"></i>View Teachers</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_IMPORT" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=C_Teachers&amp;return_module=C_Teachers&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=C_Teachers&amp;return_module=C_Teachers&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=C_Teachers&amp;return_module=C_Teachers&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Teachers</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="ApprovalProcesses"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#ApprovalProcesses" data-route="#ApprovalProcesses" track="click:me:ApprovalProcesses" aria-label="Approval Processes">
+        
+            <i class="far fa-project-diagram moduleIcon"></i>
+        
+        &nbsp;Approval Processes
+    </a>
+    
+        <button type="button" id="ApprovalProcesses" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Approval Processes - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_PMSE_INBOX_APPROVAL_LIST" href="#ApprovalProcesses/layout/approvalList" data-route="#ApprovalProcesses/layout/approvalList" track="click:#ApprovalProcesses/layout/approvalList"><i class="fa fa-bars"></i>Approval Processes</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="Accounts"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Accounts" data-route="#Accounts" track="click:me:Accounts" aria-label="Accounts">
+        
+            <i class="far fa-building moduleIcon"></i>
+        
+        &nbsp;Accounts
+    </a>
+    
+        <button type="button" id="Accounts" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Accounts - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_ACCOUNT" href="#Accounts/create" data-route="#Accounts/create" track="click:#Accounts/create"><i class="fa fa-plus"></i>Create Account</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_ACCOUNT_LIST" href="#Accounts" data-route="#Accounts" track="click:#Accounts"><i class="fa fa-bars"></i>View Accounts</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_ACCOUNT_REPORTS" href="#Reports?filterModule=Accounts" data-route="#Reports?filterModule=Accounts" track="click:#Reports?filterModule=Accounts"><i class="fa fa-user-chart"></i>View Account Reports</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_ACCOUNTS" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Accounts" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Accounts" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Accounts"><i class="fa fa-cloud-upload"></i>Import Accounts</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown active" data-module="C_Rooms"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#C_Rooms" data-route="#C_Rooms" track="click:me:C_Rooms" aria-label="Rooms">
+        
+            <i class="far fa-door-open moduleIcon"></i>
+        
+        &nbsp;Rooms
+    </a>
+    
+        <button type="button" id="C_Rooms" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Rooms - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#C_Rooms/create" data-route="#C_Rooms/create" track="click:#C_Rooms/create"><i class="fa fa-plus"></i>Create Room</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#C_Rooms" data-route="#C_Rooms" track="click:#C_Rooms"><i class="fa fa-bars"></i>View Rooms</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_IMPORT" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=C_Rooms&amp;return_module=C_Rooms&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=C_Rooms&amp;return_module=C_Rooms&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=C_Rooms&amp;return_module=C_Rooms&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Rooms</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_Teachercontract"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_Teachercontract" data-route="#J_Teachercontract" track="click:me:J_Teachercontract" aria-label="Teacher Contracts">
+        
+            <i class="far fa-file-signature moduleIcon"></i>
+        
+        &nbsp;Teacher Contracts
+    </a>
+    
+        <button type="button" id="J_Teachercontract" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Teacher Contracts - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_Teachercontract/create" data-route="#J_Teachercontract/create" track="click:#J_Teachercontract/create"><i class="fa fa-plus"></i>Create Teacher Contract</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_Teachercontract" data-route="#J_Teachercontract" track="click:#J_Teachercontract"><i class="fa fa-bars"></i>View Teacher Contracts</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_IMPORT" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Teachercontract&amp;return_module=J_Teachercontract&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Teachercontract&amp;return_module=J_Teachercontract&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Teachercontract&amp;return_module=J_Teachercontract&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Teacher Contracts</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_Kindofcourse"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_Kindofcourse" data-route="#J_Kindofcourse" track="click:me:J_Kindofcourse" aria-label="Kind Of Courses">
+        
+            <i class="far fa-chalkboard-teacher moduleIcon"></i>
+        
+        &nbsp;Kind Of Courses
+    </a>
+    
+        <button type="button" id="J_Kindofcourse" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Kind Of Courses - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_Kindofcourse/create" data-route="#J_Kindofcourse/create" track="click:#J_Kindofcourse/create"><i class="fa fa-plus"></i>Create Kind Of Course</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_Kindofcourse" data-route="#J_Kindofcourse" track="click:#J_Kindofcourse"><i class="fa fa-bars"></i>View Kind Of Courses</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_IMPORT" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Kindofcourse&amp;return_module=J_Kindofcourse&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Kindofcourse&amp;return_module=J_Kindofcourse&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Kindofcourse&amp;return_module=J_Kindofcourse&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Kind Of Courses</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="M_Activities"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#M_Activities" data-route="#M_Activities" track="click:me:M_Activities" aria-label="Activities">
+        
+            <i class="far fa-star moduleIcon"></i>
+        
+        &nbsp;Activities
+    </a>
+    
+        <button type="button" id="M_Activities" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Activities - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#M_Activities/create" data-route="#M_Activities/create" track="click:#M_Activities/create"><i class="fa fa-plus"></i>Create Activities</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#M_Activities" data-route="#M_Activities" track="click:#M_Activities"><i class="fa fa-bars"></i>View Activities</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_BTN_IMPORT_SYLLABUS" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Syllabus&amp;query=true&amp;report_module=M_Activities" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Syllabus&amp;query=true&amp;report_module=M_Activities" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Syllabus&amp;query=true&amp;report_module=M_Activities"><i class="fa fa-cloud-upload"></i>Import Syllabus</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_Workpermit"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_Workpermit" data-route="#J_Workpermit" track="click:me:J_Workpermit" aria-label="Work permit">
+        
+            <i class="far fa-briefcase moduleIcon"></i>
+        
+        &nbsp;Work permit
+    </a>
+    
+        <button type="button" id="J_Workpermit" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Work permit - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_Workpermit/create" data-route="#J_Workpermit/create" track="click:#J_Workpermit/create"><i class="fa fa-plus"></i>Create Work permit</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_Workpermit" data-route="#J_Workpermit" track="click:#J_Workpermit"><i class="fa fa-bars"></i>View Work permit</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="C_Gallery"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#C_Gallery" data-route="#C_Gallery" track="click:me:C_Gallery" aria-label="Gallery">
+        
+            <i class="far fa-images moduleIcon"></i>
+        
+        &nbsp;Gallery
+    </a>
+    
+        <button type="button" id="C_Gallery" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Gallery - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#C_Gallery/create" data-route="#C_Gallery/create" track="click:#C_Gallery/create"><i class="fa fa-plus"></i>Create Gallery</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#C_Gallery" data-route="#C_Gallery" track="click:#C_Gallery"><i class="fa fa-bars"></i>View Gallery</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_Gradebook"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_Gradebook" data-route="#J_Gradebook" track="click:me:J_Gradebook" aria-label="Gradebooks">
+        
+            <i class="fad fa-graduation-cap moduleIcon"></i>
+        
+        &nbsp;Gradebooks
+    </a>
+    
+        <button type="button" id="J_Gradebook" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Gradebooks - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_Gradebook" data-route="#J_Gradebook" track="click:#J_Gradebook"><i class="fa fa-bars"></i>View Gradebooks</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_GradebookConfig"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_GradebookConfig" data-route="#J_GradebookConfig" track="click:me:J_GradebookConfig" aria-label="Gradebook Settings">
+        
+            <i class="far fa-object-ungroup moduleIcon"></i>
+        
+        &nbsp;Gradebook Settings
+    </a>
+    
+        <button type="button" id="J_GradebookConfig" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Gradebook Settings - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_GradebookConfig/create" data-route="#J_GradebookConfig/create" track="click:#J_GradebookConfig/create"><i class="fa fa-plus"></i>Create Gradebook Setting</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_GradebookConfig" data-route="#J_GradebookConfig" track="click:#J_GradebookConfig"><i class="fa fa-bars"></i>View Gradebook Settings</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_GradebookSettingGroup"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_GradebookSettingGroup" data-route="#J_GradebookSettingGroup" track="click:me:J_GradebookSettingGroup" aria-label="Gradebook Setting Groups">
+        
+            <i class="far fa-object-group moduleIcon"></i>
+        
+        &nbsp;Gradebook Setting Groups
+    </a>
+    
+        <button type="button" id="J_GradebookSettingGroup" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Gradebook Setting Groups - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_GradebookSettingGroup/create" data-route="#J_GradebookSettingGroup/create" track="click:#J_GradebookSettingGroup/create"><i class="fa fa-plus"></i>Create Gradebook Setting Group</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_GradebookSettingGroup" data-route="#J_GradebookSettingGroup" track="click:#J_GradebookSettingGroup"><i class="fa fa-bars"></i>View Gradebook Setting Groups</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="C_Timesheet"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#bwc/index.php?module=C_Timesheet&amp;action=index" data-route="#bwc/index.php?module=C_Timesheet&amp;action=index" track="click:me:C_Timesheet" aria-label="Admin Hours">
+        
+            <i class="far fa-hourglass-start moduleIcon"></i>
+        
+        &nbsp;Admin Hours
+    </a>
+    
+
+</span></li><li class="dropdown hidden" data-module="Campaigns"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#bwc/index.php?module=Campaigns&amp;action=index" data-route="#bwc/index.php?module=Campaigns&amp;action=index" track="click:me:Campaigns" aria-label="Campaigns">
+        
+            <i class="far fa-funnel-dollar moduleIcon"></i>
+        
+        &nbsp;Campaigns
+    </a>
+    
+        <button type="button" id="Campaigns" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Campaigns - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNL_NEW_CAMPAIGN_WIZARD" href="#bwc/index.php?module=Campaigns&amp;action=WizardHome&amp;return_module=Campaigns&amp;return_action=index" data-route="#bwc/index.php?module=Campaigns&amp;action=WizardHome&amp;return_module=Campaigns&amp;return_action=index" track="click:#bwc/index.php?module=Campaigns&amp;action=WizardHome&amp;return_module=Campaigns&amp;return_action=index"><i class="fa fa-magic"></i>Create Campaign (Wizard)</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_CAMPAIGN" href="#bwc/index.php?module=Campaigns&amp;action=EditView&amp;return_module=Campaigns&amp;return_action=index" data-route="#bwc/index.php?module=Campaigns&amp;action=EditView&amp;return_module=Campaigns&amp;return_action=index" track="click:#bwc/index.php?module=Campaigns&amp;action=EditView&amp;return_module=Campaigns&amp;return_action=index"><i class="fa fa-plus"></i>Create Campaign (Classic)</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_CAMPAIGN_LIST" href="#bwc/index.php?module=Campaigns&amp;action=index&amp;return_module=Campaigns&amp;return_action=index" data-route="#bwc/index.php?module=Campaigns&amp;action=index&amp;return_module=Campaigns&amp;return_action=index" track="click:#bwc/index.php?module=Campaigns&amp;action=index&amp;return_module=Campaigns&amp;return_action=index"><i class="fa fa-bars"></i>View Campaigns</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_NEWSLETTERS" href="#bwc/index.php?module=Campaigns&amp;action=newsletterlist&amp;return_module=Campaigns&amp;return_action=index" data-route="#bwc/index.php?module=Campaigns&amp;action=newsletterlist&amp;return_module=Campaigns&amp;return_action=index" track="click:#bwc/index.php?module=Campaigns&amp;action=newsletterlist&amp;return_module=Campaigns&amp;return_action=index"><i class="fa fa-bars"></i>View Newsletters</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_EMAIL_TEMPLATE" href="#bwc/index.php?module=EmailTemplates&amp;action=EditView&amp;return_module=EmailTemplates&amp;return_action=DetailView" data-route="#bwc/index.php?module=EmailTemplates&amp;action=EditView&amp;return_module=EmailTemplates&amp;return_action=DetailView" track="click:#bwc/index.php?module=EmailTemplates&amp;action=EditView&amp;return_module=EmailTemplates&amp;return_action=DetailView"><i class="fa fa-plus"></i>Create Email Template</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_EMAIL_TEMPLATE_LIST" href="#bwc/index.php?module=EmailTemplates&amp;action=index" data-route="#bwc/index.php?module=EmailTemplates&amp;action=index" track="click:#bwc/index.php?module=EmailTemplates&amp;action=index"><i class="fa fa-bars"></i>View Email Templates</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_EMAIL_SETUP_WIZARD" href="#bwc/index.php?module=Campaigns&amp;action=WizardEmailSetup&amp;return_module=Campaigns&amp;return_action=index" data-route="#bwc/index.php?module=Campaigns&amp;action=WizardEmailSetup&amp;return_module=Campaigns&amp;return_action=index" track="click:#bwc/index.php?module=Campaigns&amp;action=WizardEmailSetup&amp;return_module=Campaigns&amp;return_action=index"><i class="fa fa-cog"></i>Set Up Email</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_DIAGNOSTIC_WIZARD" href="#bwc/index.php?module=Campaigns&amp;action=CampaignDiagnostic&amp;return_module=Campaigns&amp;return_action=index" data-route="#bwc/index.php?module=Campaigns&amp;action=CampaignDiagnostic&amp;return_module=Campaigns&amp;return_action=index" track="click:#bwc/index.php?module=Campaigns&amp;action=CampaignDiagnostic&amp;return_module=Campaigns&amp;return_action=index"><i class="fa fa-user-chart"></i>View Diagnostics</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_WEB_TO_LEAD" href="#bwc/index.php?module=Campaigns&amp;action=WebToLeadCreation&amp;return_module=Campaigns&amp;return_action=index" data-route="#bwc/index.php?module=Campaigns&amp;action=WebToLeadCreation&amp;return_module=Campaigns&amp;return_action=index" track="click:#bwc/index.php?module=Campaigns&amp;action=WebToLeadCreation&amp;return_module=Campaigns&amp;return_action=index"><i class="fa fa-plus"></i>Create Lead Form</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="Calls"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Calls" data-route="#Calls" track="click:me:Calls" aria-label="Calls">
+        
+            <i class="far fa-phone moduleIcon"></i>
+        
+        &nbsp;Calls
+    </a>
+    
+        <button type="button" id="Calls" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Calls - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_CALL" href="#Calls/create" data-route="#Calls/create" track="click:#Calls/create"><i class="fa fa-plus"></i>Log Call</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_CALL_LIST" href="#Calls" data-route="#Calls" track="click:#Calls"><i class="fa fa-bars"></i>View Calls</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_CALLS" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Calls&amp;query=true&amp;report_module=Calls" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Calls&amp;query=true&amp;report_module=Calls" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Calls&amp;query=true&amp;report_module=Calls"><i class="fa fa-cloud-upload"></i>Import Calls</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_ACTIVITIES_REPORTS" href="#Reports?filterModule=Calls" data-route="#Reports?filterModule=Calls" track="click:#Reports?filterModule=Calls"><i class="fa fa-user-chart"></i>Activities Report</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="Tasks"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Tasks" data-route="#Tasks" track="click:me:Tasks" aria-label="Tasks">
+        
+            <i class="far fa-tasks moduleIcon"></i>
+        
+        &nbsp;Tasks
+    </a>
+    
+        <button type="button" id="Tasks" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Tasks - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_TASK" href="#Tasks/create" data-route="#Tasks/create" track="click:#Tasks/create"><i class="fa fa-plus"></i>Create Task</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_TASK_LIST" href="#Tasks" data-route="#Tasks" track="click:#Tasks"><i class="fa fa-bars"></i>View Tasks</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_ACTIVITIES_REPORTS" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Tasks&amp;return_module=Tasks&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Tasks&amp;return_module=Tasks&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Tasks&amp;return_module=Tasks&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Activities Report</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="Notes"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Notes" data-route="#Notes" track="click:me:Notes" aria-label="Notes">
+        
+            <i class="far fa-file-signature moduleIcon"></i>
+        
+        &nbsp;Notes
+    </a>
+    
+        <button type="button" id="Notes" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Notes - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_NOTE" href="#Notes/create" data-route="#Notes/create" track="click:#Notes/create"><i class="fa fa-plus"></i>Create Note or Attachment</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NOTE_LIST" href="#Notes" data-route="#Notes" track="click:#Notes"><i class="fa fa-bars"></i>View Notes</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_NOTES" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Notes&amp;return_module=Notes&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Notes&amp;return_module=Notes&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Notes&amp;return_module=Notes&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Notes</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="Emails"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Emails" data-route="#Emails" track="click:me:Emails" aria-label="Emails">
+        
+            <i class="far fa-envelope moduleIcon"></i>
+        
+        &nbsp;Emails
+    </a>
+    
+        <button type="button" id="Emails" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Emails - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_COMPOSE_MODULE_NAME_SINGULAR" href="#Emails/compose" data-route="#Emails/compose" track="click:#Emails/compose"><i class="fa fa-plus"></i>Compose Email</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_CREATE_ARCHIVED_EMAIL" href="#Emails/create" data-route="#Emails/create" track="click:#Emails/create"><i class="fa fa-plus"></i>Create Archived Email</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_EMAIL_LIST" href="#Emails" data-route="#Emails" track="click:#Emails"><i class="fa fa-bars"></i>View Emails</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_EMAIL_TEMPLATE" href="#bwc/index.php?module=EmailTemplates&amp;action=EditView&amp;return_module=EmailTemplates&amp;return_action=DetailView" data-route="#bwc/index.php?module=EmailTemplates&amp;action=EditView&amp;return_module=EmailTemplates&amp;return_action=DetailView" track="click:#bwc/index.php?module=EmailTemplates&amp;action=EditView&amp;return_module=EmailTemplates&amp;return_action=DetailView"><i class="fa fa-plus"></i>Create Email Template</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_EMAIL_TEMPLATE_LIST" href="#bwc/index.php?module=EmailTemplates&amp;action=index" data-route="#bwc/index.php?module=EmailTemplates&amp;action=index" track="click:#bwc/index.php?module=EmailTemplates&amp;action=index"><i class="fa fa-bars"></i>View Email Templates</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_EMAIL_SIGNATURE" href="#UserSignatures/create" data-route="#UserSignatures/create" track="click:#UserSignatures/create"><i class="fa fa-plus"></i>Create Email Signature</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_EMAIL_SIGNATURE_LIST" href="#UserSignatures" data-route="#UserSignatures" track="click:#UserSignatures"><i class="fa fa-bars"></i>View Email Signatures</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_EMAIL_SETTINGS_LIST" href="#OutboundEmail" data-route="#OutboundEmail" track="click:#OutboundEmail"><i class="fa fa-cog"></i>Email Settings</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_Budget"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_Budget" data-route="#J_Budget" track="click:me:J_Budget" aria-label="Expenses">
+        
+            <i class="far fa-hand-holding-usd moduleIcon"></i>
+        
+        &nbsp;Expenses
+    </a>
+    
+        <button type="button" id="J_Budget" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Expenses - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_Budget/create" data-route="#J_Budget/create" track="click:#J_Budget/create"><i class="fa fa-plus"></i>Create Expense</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_Budget" data-route="#J_Budget" track="click:#J_Budget"><i class="fa fa-bars"></i>View Expenses</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="Receipts"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Receipts" data-route="#Receipts" track="click:me:Receipts" aria-label="Receipts">
+        
+            <i class="far fa-file-invoice-dollar moduleIcon"></i>
+        
+        &nbsp;Receipts
+    </a>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_Inventory"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_Inventory" data-route="#J_Inventory" track="click:me:J_Inventory" aria-label="Inventory">
+        
+            <i class="far fa-dolly-flatbed-alt moduleIcon"></i>
+        
+        &nbsp;Inventory
+    </a>
+    
+        <button type="button" id="J_Inventory" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Inventory - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_Inventory/create" data-route="#J_Inventory/create" track="click:#J_Inventory/create"><i class="fa fa-plus"></i>Create Inventory</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_Inventory" data-route="#J_Inventory" track="click:#J_Inventory"><i class="fa fa-bars"></i>View Inventories</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_Discount"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_Discount" data-route="#J_Discount" track="click:me:J_Discount" aria-label="Discounts">
+        
+            <i class="far fa-badge-percent moduleIcon"></i>
+        
+        &nbsp;Discounts
+    </a>
+    
+        <button type="button" id="J_Discount" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Discounts - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_Discount/create" data-route="#J_Discount/create" track="click:#J_Discount/create"><i class="fa fa-plus"></i>Create Discount</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_Discount" data-route="#J_Discount" track="click:#J_Discount"><i class="fa fa-bars"></i>View Discounts</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_IMPORT" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Discount&amp;return_module=J_Discount&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Discount&amp;return_module=J_Discount&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_Discount&amp;return_module=J_Discount&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Discounts</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_Voucher"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_Voucher" data-route="#J_Voucher" track="click:me:J_Voucher" aria-label="Vouchers">
+        
+            <i class="far fa-ticket-alt moduleIcon"></i>
+        
+        &nbsp;Vouchers
+    </a>
+    
+        <button type="button" id="J_Voucher" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Vouchers - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_Voucher/create" data-route="#J_Voucher/create" track="click:#J_Voucher/create"><i class="fa fa-plus"></i>Create Voucher</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_Voucher" data-route="#J_Voucher" track="click:#J_Voucher"><i class="fa fa-bars"></i>View Vouchers</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="ProductTypes"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#ProductTypes" data-route="#ProductTypes" track="click:me:ProductTypes" aria-label="Product Types">
+        
+            <i class="far fa-box-check moduleIcon"></i>
+        
+        &nbsp;Product Types
+    </a>
+    
+        <button type="button" id="ProductTypes" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Product Types - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PRODUCT_TYPE" href="#ProductTypes/create" data-route="#ProductTypes/create" track="click:#ProductTypes/create"><i class="fa fa-plus"></i>Create Product Type</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_VIEW_PRODUCT_TYPES" href="#ProductTypes" data-route="#ProductTypes" track="click:#ProductTypes"><i class="fa fa-list"></i>View Product Type</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PRODUCT" href="#ProductTemplates/create" data-route="#ProductTemplates/create" track="click:#ProductTemplates/create"><i class="fa fa-plus"></i>Create Product for Catalog</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_PRODUCT_LIST" href="#ProductTemplates" data-route="#ProductTemplates" track="click:#ProductTemplates"><i class="fa fa-list"></i>View Product Template</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_MANUFACTURER" href="#Manufacturers" data-route="#Manufacturers" track="click:#Manufacturers"><i class="fa fa-list"></i>View Manufacturers</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PRODUCT_CATEGORY" href="#ProductCategories" data-route="#ProductCategories" track="click:#ProductCategories"><i class="fa fa-list"></i>View Product Categories</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_PRODUCT_TYPES" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=ProductTypes&amp;return_module=ProductTypes&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=ProductTypes&amp;return_module=ProductTypes&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=ProductTypes&amp;return_module=ProductTypes&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Product Types</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="ProductCategories"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#ProductCategories" data-route="#ProductCategories" track="click:me:ProductCategories" aria-label="Product Categories">
+        
+            <i class="far fa-box-check moduleIcon"></i>
+        
+        &nbsp;Product Categories
+    </a>
+    
+        <button type="button" id="ProductCategories" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Product Categories - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PRODUCT" href="#ProductTemplates/create" data-route="#ProductTemplates/create" track="click:#ProductTemplates/create"><i class="fa fa-plus"></i>Create Other Fees for Catalog</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_PRODUCT_LIST" href="#ProductTemplates" data-route="#ProductTemplates" track="click:#ProductTemplates"><i class="fa fa-list"></i>View Product Catelog</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PRODUCT_CATEGORY" href="#ProductCategories" data-route="#ProductCategories" track="click:#ProductCategories"><i class="fa fa-list"></i>View Product Categories</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PRODUCT_TYPE" href="#ProductTypes" data-route="#ProductTypes" track="click:#ProductTypes"><i class="fa fa-list"></i>View Product Type</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_PRODUCT_CATEGORIES" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=ProductCategories&amp;return_module=ProductCategories&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=ProductCategories&amp;return_module=ProductCategories&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=ProductCategories&amp;return_module=ProductCategories&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Product Categories</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="ProductTemplates"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#ProductTemplates" data-route="#ProductTemplates" track="click:me:ProductTemplates" aria-label="Product Templates">
+        
+            <i class="far fa-box-check moduleIcon"></i>
+        
+        &nbsp;Product Templates
+    </a>
+    
+        <button type="button" id="ProductTemplates" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Product Templates - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PRODUCT" href="#ProductTemplates/create" data-route="#ProductTemplates/create" track="click:#ProductTemplates/create"><i class="fa fa-plus"></i>Create Product Template</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_PRODUCT_LIST" href="#ProductTemplates" data-route="#ProductTemplates" track="click:#ProductTemplates"><i class="fa fa-list"></i>View Product Template</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PRODUCT_CATEGORY" href="#ProductCategories" data-route="#ProductCategories" track="click:#ProductCategories"><i class="fa fa-list"></i>View Categories</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PRODUCT_TYPE" href="#ProductTypes" data-route="#ProductTypes" track="click:#ProductTypes"><i class="fa fa-list"></i>View Types</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_PRODUCT_CATALOG" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=ProductTemplates&amp;return_module=ProductTemplates&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=ProductTemplates&amp;return_module=ProductTemplates&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=ProductTemplates&amp;return_module=ProductTemplates&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Product Template Entries</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="pmse_Inbox"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#pmse_Inbox" data-route="#pmse_Inbox" track="click:me:pmse_Inbox" aria-label="Processes">
+        
+            <i class="far fa-project-diagram moduleIcon"></i>
+        
+        &nbsp;Processes
+    </a>
+    
+        <button type="button" id="pmse_Inbox" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Processes - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_PMSE_INBOX_PROCESS_MANAGEMENT" href="#pmse_Inbox/layout/casesList" data-route="#pmse_Inbox/layout/casesList" track="click:#pmse_Inbox/layout/casesList"><i class="fa fa-bars"></i>Process Management</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_PMSE_INBOX_APPROVAL_LIST" href="#pmse_Inbox/layout/approvalList" data-route="#pmse_Inbox/layout/approvalList" track="click:#pmse_Inbox/layout/approvalList"><i class="fa fa-bars"></i>Approval Processes</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_PMSE_INBOX_UNATTENDED_PROCESSES" href="#pmse_Inbox/layout/unattendedCases" data-route="#pmse_Inbox/layout/unattendedCases" track="click:#pmse_Inbox/layout/unattendedCases"><i class="fa fa-bars"></i>Unattended Processes</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_VIEW_PROCESS_DEFINITIONS" href="#pmse_Project" data-route="#pmse_Project" track="click:#pmse_Project"><i class="fa fa-list"></i>Process Definitions</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="pmse_Project"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#pmse_Project" data-route="#pmse_Project" track="click:me:pmse_Project" aria-label="Process Definitions">
+        
+            <i class="far fa-chart-network moduleIcon"></i>
+        
+        &nbsp;Process Definitions
+    </a>
+    
+        <button type="button" id="pmse_Project" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Process Definitions - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PMSE_PROJECT" href="#pmse_Project/create" data-route="#pmse_Project/create" track="click:#pmse_Project/create"><i class="fa fa-plus"></i>Create Process Definition</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#pmse_Project" data-route="#pmse_Project" track="click:#pmse_Project"><i class="fa fa-list"></i>View Process Definitions</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_PMSE_PROJECT" href="#pmse_Project/layout/project-import" data-route="#pmse_Project/layout/project-import" track="click:#pmse_Project/layout/project-import"><i class="fa fa-cloud-upload"></i>Import Process Definitions</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_VIEW_EMAILS_TEMPLATES" href="#pmse_Emails_Templates" data-route="#pmse_Emails_Templates" track="click:#pmse_Emails_Templates"><i class="fa fa-list"></i>Process Email Template</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_VIEW_BUSSINESS_RULES" href="#pmse_Business_Rules" data-route="#pmse_Business_Rules" track="click:#pmse_Business_Rules"><i class="fa fa-list"></i>Process Business Rules</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_VIEW_INBOX" href="#pmse_Inbox/layout/casesList" data-route="#pmse_Inbox/layout/casesList" track="click:#pmse_Inbox/layout/casesList"><i class="fa fa-list"></i>View Processes</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="pmse_Emails_Templates"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#pmse_Emails_Templates" data-route="#pmse_Emails_Templates" track="click:me:pmse_Emails_Templates" aria-label="Process Email Templates">
+        
+            <i class="far fa-envelope moduleIcon"></i>
+        
+        &nbsp;Process Email Templates
+    </a>
+    
+        <button type="button" id="pmse_Emails_Templates" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Process Email Templates - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_PMSE_EMAILS_TEMPLATES" href="#pmse_Emails_Templates/create" data-route="#pmse_Emails_Templates/create" track="click:#pmse_Emails_Templates/create"><i class="fa fa-plus"></i>Create Process Email Template</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#pmse_Emails_Templates" data-route="#pmse_Emails_Templates" track="click:#pmse_Emails_Templates"><i class="fa fa-bars"></i>View Process Email Templates</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_PMSE_EMAILS_TEMPLATES" href="#pmse_Emails_Templates/layout/emailtemplates-import" data-route="#pmse_Emails_Templates/layout/emailtemplates-import" track="click:#pmse_Emails_Templates/layout/emailtemplates-import"><i class="fa fa-cloud-upload"></i>Import Process Email Templates</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_VIEW_PROCESS_DEFINITIONS" href="#pmse_Project" data-route="#pmse_Project" track="click:#pmse_Project"><i class="fa fa-list"></i>Process Definitions</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_Targetconfig"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#bwc/index.php?module=J_Targetconfig&amp;action=index" data-route="#bwc/index.php?module=J_Targetconfig&amp;action=index" track="click:me:J_Targetconfig" aria-label="KPI Settings">
+        
+            <i class="far fa-bullseye-arrow moduleIcon"></i>
+        
+        &nbsp;KPI Settings
+    </a>
+    
+
+</span></li><li class="dropdown hidden" data-module="Bugs"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Bugs" data-route="#Bugs" track="click:me:Bugs" aria-label="EMS Support">
+        
+            <i class="far fa-bug moduleIcon"></i>
+        
+        &nbsp;EMS Support
+    </a>
+    
+        <button type="button" id="Bugs" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="EMS Support - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_BUG" href="#Bugs/create" data-route="#Bugs/create" track="click:#Bugs/create"><i class="fa fa-plus"></i>Report EMS Support</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_BUG_LIST" href="#Bugs" data-route="#Bugs" track="click:#Bugs"><i class="fa fa-bars"></i>View EMS Support</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_BUG_REPORTS" href="#Reports?filterModule=Bugs" data-route="#Reports?filterModule=Bugs" track="click:#Reports?filterModule=Bugs"><i class="fa fa-bars"></i>View EMS Support Reports</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_BUGS" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Bugs&amp;return_module=Bugs&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Bugs&amp;return_module=Bugs&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Bugs&amp;return_module=Bugs&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import EMS Support</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="KPI"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#KPI" data-route="#KPI" track="click:me:KPI" aria-label="KPI Definitions">
+        
+        
+        &nbsp;KPI Definitions
+    </a>
+    
+        <button type="button" id="KPI" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="KPI Definitions - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#KPI/create" data-route="#KPI/create" track="click:#KPI/create"><i class="fa fa-plus"></i>Create KPI</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#KPI" data-route="#KPI" track="click:#KPI"><i class="fa fa-bars"></i>View KPI</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="KPI_Template"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#KPI_Template" data-route="#KPI_Template" track="click:me:KPI_Template" aria-label="KPI Templates">
+        
+        
+        &nbsp;KPI Templates
+    </a>
+    
+        <button type="button" id="KPI_Template" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="KPI Templates - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#KPI_Template/create" data-route="#KPI_Template/create" track="click:#KPI_Template/create"><i class="fa fa-plus"></i>Create KPI Templates</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#KPI_Template" data-route="#KPI_Template" track="click:#KPI_Template"><i class="fa fa-bars"></i>View KPI Templates</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="KPI_Target"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#KPI_Target" data-route="#KPI_Target" track="click:me:KPI_Target" aria-label="KPI Targets">
+        
+        
+        &nbsp;KPI Targets
+    </a>
+    
+        <button type="button" id="KPI_Target" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="KPI Targets - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#KPI_Target/create" data-route="#KPI_Target/create" track="click:#KPI_Target/create"><i class="fa fa-plus"></i>Create KPI Targets</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#KPI_Target" data-route="#KPI_Target" track="click:#KPI_Target"><i class="fa fa-bars"></i>View KPI Targets</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="C_SMS"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#C_SMS" data-route="#C_SMS" track="click:me:C_SMS" aria-label="SMS">
+        
+            <i class="far fa-sms moduleIcon"></i>
+        
+        &nbsp;SMS
+    </a>
+    
+        <button type="button" id="C_SMS" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="SMS - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#C_SMS" data-route="#C_SMS" track="click:#C_SMS"><i class="fa fa-bars"></i>View SMS</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_SEND_SMS" href="#bwc/index.php?module=C_SMS&amp;action=attendance" data-route="#bwc/index.php?module=C_SMS&amp;action=attendance" track="click:#bwc/index.php?module=C_SMS&amp;action=attendance"><i class="fa fa-comments"></i>Send SMS</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="Contracts"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#Contracts" data-route="#Contracts" track="click:me:Contracts" aria-label="Contracts">
+        
+            <i class="far fa-file-contract moduleIcon"></i>
+        
+        &nbsp;Contracts
+    </a>
+    
+        <button type="button" id="Contracts" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Contracts - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_CONTRACT" href="#Contracts/create" data-route="#Contracts/create" track="click:#Contracts/create"><i class="fa fa-plus"></i>Create Contract</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_CONTRACT_LIST" href="#Contracts" data-route="#Contracts" track="click:#Contracts"><i class="fa fa-bars"></i>View Contracts</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_IMPORT_CONTRACTS" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Contracts&amp;return_module=Contracts&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Contracts&amp;return_module=Contracts&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=Contracts&amp;return_module=Contracts&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Contracts</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown hidden" data-module="J_School"><span class="btn-group">
+    <a class="btn btn-invisible btn-link module-name" href="#J_School" data-route="#J_School" track="click:me:J_School" aria-label="Schools">
+        
+            <i class="far fa-school moduleIcon"></i>
+        
+        &nbsp;Schools
+    </a>
+    
+        <button type="button" id="J_School" title="More" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" track="click:module-menu-dropdown" aria-label="Schools - More" aria-haspopup="true" aria-expanded="false"><i class="fal fa-angle-down"></i></button>
+        <div class="dropdown-menu scroll">
+            <ul role="menu">
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_NEW_RECORD" href="#J_School/create" data-route="#J_School/create" track="click:#J_School/create"><i class="fa fa-plus"></i>Create School</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LNK_LIST" href="#J_School" data-route="#J_School" track="click:#J_School"><i class="fa fa-bars"></i>View Schools</a>
+                        </li>
+                    
+                
+                    
+                        <li><a class="ellipsis_inline" tabindex="-1" data-navbar-menu-item="LBL_IMPORT" href="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_School&amp;return_module=J_School&amp;return_action=index" data-route="#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_School&amp;return_module=J_School&amp;return_action=index" track="click:#bwc/index.php?module=Import&amp;action=Step1&amp;import_module=J_School&amp;return_module=J_School&amp;return_action=index"><i class="fa fa-cloud-upload"></i>Import Schools</a>
+                        </li>
+                    
+                
+                <li class="divider" data-container="recently-viewed"></li>
+                <li class="divider" data-container="favorites"></li>
+            </ul>
+        </div>
+    
+
+</span></li><li class="dropdown more" data-action="more-modules">
+        <div class="btn-group">
+            <button type="button" data-toggle="dropdown" class="btn btn-invisible dropdown-toggle" title="More" track="click:navbar-more-modules" aria-label="More Modules" aria-haspopup="true" aria-expanded="false"><i style="color:white;" class="fa fa-ellipsis-v"></i></button>
+            <div class="dropdown-menu scroll" role="menu">
+                <ul data-container="overflow"><li class="dropdown hidden" data-module="Home"><span title="Dashboard" class="home btn-group">
+    <a class="cube module-list-link" href="#Home" data-route="#Home" track="click:cube" tabindex="-1"><img src="styleguide/assets/img/logo.png" alt="DotBCRM"></a>
+
+</span></li><li class="dropdown hidden" data-module="Calendar"><span>
+    <a class="module-list-link" href="#bwc/index.php?module=Calendar&amp;action=index" data-route="#bwc/index.php?module=Calendar&amp;action=index" track="click:Calendar" tabindex="-1">
+        <span>
+            
+                <i class="far fa-calendar-alt moduleIconBlack"></i>
+            
+            
+            &nbsp;Calendar
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown hidden" data-module="Prospects"><span>
+    <a class="module-list-link" href="#Prospects" data-route="#Prospects" track="click:Prospects" tabindex="-1">
+        <span>
+            
+                <i class="far fa-id-card-alt moduleIconBlack"></i>
+            
+            
+            &nbsp;Targets
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown hidden" data-module="Leads"><span>
+    <a class="module-list-link" href="#Leads" data-route="#Leads" track="click:Leads" tabindex="-1">
+        <span>
+            
+                <i class="far fa-user-crown moduleIconBlack"></i>
+            
+            
+            &nbsp;Leads
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Contacts"><span>
+    <a class="module-list-link" href="#Contacts" data-route="#Contacts" track="click:Contacts" tabindex="-1">
+        <span>
+            
+                <i class="far fa-graduation-cap moduleIconBlack"></i>
+            
+            
+            &nbsp;Students
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Quotes"><span>
+    <a class="module-list-link" href="#Quotes" data-route="#Quotes" track="click:Quotes" tabindex="-1">
+        <span>
+            
+                <i class="far fa-shopping-cart moduleIconBlack"></i>
+            
+            
+            &nbsp;Sale Orders
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_Class"><span>
+    <a class="module-list-link" href="#J_Class" data-route="#J_Class" track="click:J_Class" tabindex="-1">
+        <span>
+            
+                <i class="far fa-users-class moduleIconBlack"></i>
+            
+            
+            &nbsp;Classes
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Meetings"><span>
+    <a class="module-list-link" href="#Meetings" data-route="#Meetings" track="click:Meetings" tabindex="-1">
+        <span>
+            
+                <i class="far fa-calendar-check moduleIconBlack"></i>
+            
+            
+            &nbsp;Schedules
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Reports"><span>
+    <a class="module-list-link" href="#Reports" data-route="#Reports" track="click:Reports" tabindex="-1">
+        <span>
+            
+                <i class="far fa-analytics moduleIconBlack"></i>
+            
+            
+            &nbsp;Reports
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_Loyalty"><span>
+    <a class="module-list-link" href="#J_Loyalty" data-route="#J_Loyalty" track="click:J_Loyalty" tabindex="-1">
+        <span>
+            
+                <i class="far fa-id-card moduleIconBlack"></i>
+            
+            
+            &nbsp;Loyalty
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="C_Teachers"><span>
+    <a class="module-list-link" href="#C_Teachers" data-route="#C_Teachers" track="click:C_Teachers" tabindex="-1">
+        <span>
+            
+                <i class="far fa-chalkboard-teacher moduleIconBlack"></i>
+            
+            
+            &nbsp;Teachers
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="ApprovalProcesses"><span>
+    <a class="module-list-link" href="#ApprovalProcesses" data-route="#ApprovalProcesses" track="click:ApprovalProcesses" tabindex="-1">
+        <span>
+            
+                <i class="far fa-project-diagram moduleIconBlack"></i>
+            
+            
+            &nbsp;Approval Processes
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Accounts"><span>
+    <a class="module-list-link" href="#Accounts" data-route="#Accounts" track="click:Accounts" tabindex="-1">
+        <span>
+            
+                <i class="far fa-building moduleIconBlack"></i>
+            
+            
+            &nbsp;Accounts
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown hidden" data-module="C_Rooms"><span>
+    <a class="module-list-link" href="#C_Rooms" data-route="#C_Rooms" track="click:C_Rooms" tabindex="-1">
+        <span>
+            
+                <i class="far fa-door-open moduleIconBlack"></i>
+            
+            
+            &nbsp;Rooms
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_Teachercontract"><span>
+    <a class="module-list-link" href="#J_Teachercontract" data-route="#J_Teachercontract" track="click:J_Teachercontract" tabindex="-1">
+        <span>
+            
+                <i class="far fa-file-signature moduleIconBlack"></i>
+            
+            
+            &nbsp;Teacher Contracts
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_Kindofcourse"><span>
+    <a class="module-list-link" href="#J_Kindofcourse" data-route="#J_Kindofcourse" track="click:J_Kindofcourse" tabindex="-1">
+        <span>
+            
+                <i class="far fa-chalkboard-teacher moduleIconBlack"></i>
+            
+            
+            &nbsp;Kind Of Courses
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="M_Activities"><span>
+    <a class="module-list-link" href="#M_Activities" data-route="#M_Activities" track="click:M_Activities" tabindex="-1">
+        <span>
+            
+                <i class="far fa-star moduleIconBlack"></i>
+            
+            
+            &nbsp;Activities
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_Workpermit"><span>
+    <a class="module-list-link" href="#J_Workpermit" data-route="#J_Workpermit" track="click:J_Workpermit" tabindex="-1">
+        <span>
+            
+                <i class="far fa-briefcase moduleIconBlack"></i>
+            
+            
+            &nbsp;Work permit
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="C_Gallery"><span>
+    <a class="module-list-link" href="#C_Gallery" data-route="#C_Gallery" track="click:C_Gallery" tabindex="-1">
+        <span>
+            
+                <i class="far fa-images moduleIconBlack"></i>
+            
+            
+            &nbsp;Gallery
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_Gradebook"><span>
+    <a class="module-list-link" href="#J_Gradebook" data-route="#J_Gradebook" track="click:J_Gradebook" tabindex="-1">
+        <span>
+            
+                <i class="fad fa-graduation-cap moduleIconBlack"></i>
+            
+            
+            &nbsp;Gradebooks
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_GradebookConfig"><span>
+    <a class="module-list-link" href="#J_GradebookConfig" data-route="#J_GradebookConfig" track="click:J_GradebookConfig" tabindex="-1">
+        <span>
+            
+                <i class="far fa-object-ungroup moduleIconBlack"></i>
+            
+            
+            &nbsp;Gradebook Settings
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_GradebookSettingGroup"><span>
+    <a class="module-list-link" href="#J_GradebookSettingGroup" data-route="#J_GradebookSettingGroup" track="click:J_GradebookSettingGroup" tabindex="-1">
+        <span>
+            
+                <i class="far fa-object-group moduleIconBlack"></i>
+            
+            
+            &nbsp;Gradebook Setting Groups
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="C_Timesheet"><span>
+    <a class="module-list-link" href="#bwc/index.php?module=C_Timesheet&amp;action=index" data-route="#bwc/index.php?module=C_Timesheet&amp;action=index" track="click:C_Timesheet" tabindex="-1">
+        <span>
+            
+                <i class="far fa-hourglass-start moduleIconBlack"></i>
+            
+            
+            &nbsp;Admin Hours
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Campaigns"><span>
+    <a class="module-list-link" href="#bwc/index.php?module=Campaigns&amp;action=index" data-route="#bwc/index.php?module=Campaigns&amp;action=index" track="click:Campaigns" tabindex="-1">
+        <span>
+            
+                <i class="far fa-funnel-dollar moduleIconBlack"></i>
+            
+            
+            &nbsp;Campaigns
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Calls"><span>
+    <a class="module-list-link" href="#Calls" data-route="#Calls" track="click:Calls" tabindex="-1">
+        <span>
+            
+                <i class="far fa-phone moduleIconBlack"></i>
+            
+            
+            &nbsp;Calls
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Tasks"><span>
+    <a class="module-list-link" href="#Tasks" data-route="#Tasks" track="click:Tasks" tabindex="-1">
+        <span>
+            
+                <i class="far fa-tasks moduleIconBlack"></i>
+            
+            
+            &nbsp;Tasks
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Notes"><span>
+    <a class="module-list-link" href="#Notes" data-route="#Notes" track="click:Notes" tabindex="-1">
+        <span>
+            
+                <i class="far fa-file-signature moduleIconBlack"></i>
+            
+            
+            &nbsp;Notes
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Emails"><span>
+    <a class="module-list-link" href="#Emails" data-route="#Emails" track="click:Emails" tabindex="-1">
+        <span>
+            
+                <i class="far fa-envelope moduleIconBlack"></i>
+            
+            
+            &nbsp;Emails
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_Budget"><span>
+    <a class="module-list-link" href="#J_Budget" data-route="#J_Budget" track="click:J_Budget" tabindex="-1">
+        <span>
+            
+                <i class="far fa-hand-holding-usd moduleIconBlack"></i>
+            
+            
+            &nbsp;Expenses
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Receipts"><span>
+    <a class="module-list-link" href="#Receipts" data-route="#Receipts" track="click:Receipts" tabindex="-1">
+        <span>
+            
+                <i class="far fa-file-invoice-dollar moduleIconBlack"></i>
+            
+            
+            &nbsp;Receipts
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_Inventory"><span>
+    <a class="module-list-link" href="#J_Inventory" data-route="#J_Inventory" track="click:J_Inventory" tabindex="-1">
+        <span>
+            
+                <i class="far fa-dolly-flatbed-alt moduleIconBlack"></i>
+            
+            
+            &nbsp;Inventory
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_Discount"><span>
+    <a class="module-list-link" href="#J_Discount" data-route="#J_Discount" track="click:J_Discount" tabindex="-1">
+        <span>
+            
+                <i class="far fa-badge-percent moduleIconBlack"></i>
+            
+            
+            &nbsp;Discounts
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_Voucher"><span>
+    <a class="module-list-link" href="#J_Voucher" data-route="#J_Voucher" track="click:J_Voucher" tabindex="-1">
+        <span>
+            
+                <i class="far fa-ticket-alt moduleIconBlack"></i>
+            
+            
+            &nbsp;Vouchers
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="ProductTypes"><span>
+    <a class="module-list-link" href="#ProductTypes" data-route="#ProductTypes" track="click:ProductTypes" tabindex="-1">
+        <span>
+            
+                <i class="far fa-box-check moduleIconBlack"></i>
+            
+            
+            &nbsp;Product Types
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="ProductCategories"><span>
+    <a class="module-list-link" href="#ProductCategories" data-route="#ProductCategories" track="click:ProductCategories" tabindex="-1">
+        <span>
+            
+                <i class="far fa-box-check moduleIconBlack"></i>
+            
+            
+            &nbsp;Product Categories
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="ProductTemplates"><span>
+    <a class="module-list-link" href="#ProductTemplates" data-route="#ProductTemplates" track="click:ProductTemplates" tabindex="-1">
+        <span>
+            
+                <i class="far fa-box-check moduleIconBlack"></i>
+            
+            
+            &nbsp;Product Templates
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="pmse_Inbox"><span>
+    <a class="module-list-link" href="#pmse_Inbox" data-route="#pmse_Inbox" track="click:pmse_Inbox" tabindex="-1">
+        <span>
+            
+                <i class="far fa-project-diagram moduleIconBlack"></i>
+            
+            
+            &nbsp;Processes
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="pmse_Project"><span>
+    <a class="module-list-link" href="#pmse_Project" data-route="#pmse_Project" track="click:pmse_Project" tabindex="-1">
+        <span>
+            
+                <i class="far fa-chart-network moduleIconBlack"></i>
+            
+            
+            &nbsp;Process Definitions
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="pmse_Emails_Templates"><span>
+    <a class="module-list-link" href="#pmse_Emails_Templates" data-route="#pmse_Emails_Templates" track="click:pmse_Emails_Templates" tabindex="-1">
+        <span>
+            
+                <i class="far fa-envelope moduleIconBlack"></i>
+            
+            
+            &nbsp;Process Email Templates
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_Targetconfig"><span>
+    <a class="module-list-link" href="#bwc/index.php?module=J_Targetconfig&amp;action=index" data-route="#bwc/index.php?module=J_Targetconfig&amp;action=index" track="click:J_Targetconfig" tabindex="-1">
+        <span>
+            
+                <i class="far fa-bullseye-arrow moduleIconBlack"></i>
+            
+            
+            &nbsp;KPI Settings
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Bugs"><span>
+    <a class="module-list-link" href="#Bugs" data-route="#Bugs" track="click:Bugs" tabindex="-1">
+        <span>
+            
+                <i class="far fa-bug moduleIconBlack"></i>
+            
+            
+            &nbsp;EMS Support
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="KPI"><span>
+    <a class="module-list-link" href="#KPI" data-route="#KPI" track="click:KPI" tabindex="-1">
+        <span>
+            
+            
+            &nbsp;KPI Definitions
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="KPI_Template"><span>
+    <a class="module-list-link" href="#KPI_Template" data-route="#KPI_Template" track="click:KPI_Template" tabindex="-1">
+        <span>
+            
+            
+            &nbsp;KPI Templates
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="KPI_Target"><span>
+    <a class="module-list-link" href="#KPI_Target" data-route="#KPI_Target" track="click:KPI_Target" tabindex="-1">
+        <span>
+            
+            
+            &nbsp;KPI Targets
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="C_SMS"><span>
+    <a class="module-list-link" href="#C_SMS" data-route="#C_SMS" track="click:C_SMS" tabindex="-1">
+        <span>
+            
+                <i class="far fa-sms moduleIconBlack"></i>
+            
+            
+            &nbsp;SMS
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="Contracts"><span>
+    <a class="module-list-link" href="#Contracts" data-route="#Contracts" track="click:Contracts" tabindex="-1">
+        <span>
+            
+                <i class="far fa-file-contract moduleIconBlack"></i>
+            
+            
+            &nbsp;Contracts
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li><li class="dropdown" data-module="J_School"><span>
+    <a class="module-list-link" href="#J_School" data-route="#J_School" track="click:J_School" tabindex="-1">
+        <span>
+            
+                <i class="far fa-school moduleIconBlack"></i>
+            
+            
+            &nbsp;Schools
+        </span>
+<!--        <i class="fa fa-star pro-icon" aria-hidden="true"></i>-->
+    </a>
+
+</span></li></ul>
+            </div>
+        </div>
+    </li>
+</ul>
+</div><div class="search"><div class="navbar-search table" role="search" aria-label="Global Search" data-component="searchbar">
+<div class="table-cell quicksearch-modulelist-wrapper hide" style="display: none;"><div class="module-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="-1">
+    <span data-label="module-icons">
+        
+    
+        
+            <span class="label non-module-label" aria-label="Global Search Module Filter" title="All">All</span>
+        
+    
+
+
+    </span>
+    <div class="module-dropdown-button btn btn-invisible" track="click:globalsearch-dropdown"><i class="fa fa-angle-down"></i></div>
+</div>
+<ul class="dropdown-menu module-dropdown-list">
+    <li class="menu-item ellipsis_inline selected" data-action="select-all" title="Search all" tabindex="-1">
+        <i class="fa fa-check"></i><span>Search all</span>
+    </li>
+    
+        <li class="menu-item ellipsis_inline" data-module="J_Class" data-action="select-module" title="Classes" tabindex="-1">
+            <i class="fa fa-check"></i><span>Classes</span>
+        </li>
+    
+        <li class="menu-item ellipsis_inline" data-module="J_Metric" data-action="select-module" title="DOTB Metrikal" tabindex="-1">
+            <i class="fa fa-check"></i><span>DOTB Metrikal</span>
+        </li>
+    
+        <li class="menu-item ellipsis_inline" data-module="Employees" data-action="select-module" title="Employees" tabindex="-1">
+            <i class="fa fa-check"></i><span>Employees</span>
+        </li>
+    
+        <li class="menu-item ellipsis_inline" data-module="KPI" data-action="select-module" title="KPI Definitions" tabindex="-1">
+            <i class="fa fa-check"></i><span>KPI Definitions</span>
+        </li>
+    
+        <li class="menu-item ellipsis_inline" data-module="KPI_Result" data-action="select-module" title="KPI Results" tabindex="-1">
+            <i class="fa fa-check"></i><span>KPI Results</span>
+        </li>
+    
+        <li class="menu-item ellipsis_inline" data-module="KPI_Target" data-action="select-module" title="KPI Targets" tabindex="-1">
+            <i class="fa fa-check"></i><span>KPI Targets</span>
+        </li>
+    
+        <li class="menu-item ellipsis_inline" data-module="KPI_Template" data-action="select-module" title="KPI Templates" tabindex="-1">
+            <i class="fa fa-check"></i><span>KPI Templates</span>
+        </li>
+    
+        <li class="menu-item ellipsis_inline" data-module="Leads" data-action="select-module" title="Leads" tabindex="-1">
+            <i class="fa fa-check"></i><span>Leads</span>
+        </li>
+    
+        <li class="menu-item ellipsis_inline" data-module="M_MetrikalAlert" data-action="select-module" title="MetrikalAlert" tabindex="-1">
+            <i class="fa fa-check"></i><span>MetrikalAlert</span>
+        </li>
+    
+        <li class="menu-item ellipsis_inline" data-module="Contacts" data-action="select-module" title="Students" tabindex="-1">
+            <i class="fa fa-check"></i><span>Students</span>
+        </li>
+    
+        <li class="menu-item ellipsis_inline" data-module="Prospects" data-action="select-module" title="Targets" tabindex="-1">
+            <i class="fa fa-check"></i><span>Targets</span>
+        </li>
+    
+</ul>
+</div><div class="table-cell">
+</div><div class="table-cell quicksearch-bar-wrapper"><input type="text" value="" class="search-query" placeholder="Search" data-action="search_bar" aria-label="Global Search">
+</div></div>
+<div><div class="quicksearch-tags-wrapper">
+	<div class="quicksearch-tags dropdown-menu hide">
+	    <span class="qs-tags-row qs-tag-icon"><i class="fa fa-tag"></i></span>
+	    
+	</div>
+</div>
+</div><div><div class="typeahead-wrapper"><ul class="typeahead dropdown-menu search-results">
+
+        <li class="no-results ellipsis_inline" data-placement="bottom" title="" data-original-title="">
+            
+                <div class="loading">Searching<i class="l1">.</i><i class="l2">.</i><i class="l3">.</i></div>
+            
+        </li>
+
+</ul></div>
+</div><div class="quicksearch-button-wrapper"><a href="javascript:void(0)" tabindex="0" class="btn btn-link btn-invisible advanced" aria-label="Run Global Search" data-action="search_icon">
+    <i class="fa fa-search"></i>
+</a>
+</div></div><div><ul class="nav megamenu">
+    <li class="dropdown notification-list">
+        <div class="btn-group" data-name="notifications-list-button">
+        <a href="#" data-toggle="dropdown" data-action="set_notif_viewed" aria-haspopup="true" aria-expanded="false">
+        <i class="far fa-bell"></i>
+        
+        <span class="badge btn-danger dropdown-toggle" rel="tooltip" title="Notifications" aria-label="Notifications" data-placement="bottom">2</span>
+        
+        </a>
+            <div class="dropdown-menu scroll pull-right">
+                <ul role="menu">
+                    <li>
+                        <h4 class="span3">Notifications</h4>
+                        <span data-action="mark-all-read-handler" class="mark-all" tabindex="-1">Mark all as read</span>
+                    </li>
+                    
+                        <li>
+                            <a class="row-fluid" href="#" data-id="ba2f6fea-43ad-11f1-8295-e2fe17872b31" data-action="is-read-handler" data-placement="bottom" tabindex="-1">
+                                <span class="span1" style="margin-right:15px" rel="tooltip">
+                                    <span class="noti_dot">
+                                        <span sfuuid="217" class="detail"><span class="noti-badge label noti-success">
+    <i class="fa fa-check" aria-hidden="true"></i>
+</span>
+</span>
+                                    </span>
+                                </span>
+                                <span class="span9">
+                                        <b class="ellipsis_inline" data-original-title="Report export ready">Report export ready</b>
+                                        <span class="noti_des" data-original-title="Your report export has finished. File: Revenue_report_by_student_20260429_162602.xlsx">Your report export has finished. File: Revenue_report_by_student_20260429_162602.xlsx</span>
+                                        <p>
+                                            
+                                            <time datetime="2026-04-29T16:27:04+07:00" class="unread-time" title="29/04/2026 04:27 PM">an hour ago</time>
+                                            
+                                        </p>
+                                </span>
+                                <span class="span1"><span class="noti_dot">
+                                        <i class="unread-notification fas fa-circle" aria-hidden="true"></i>
+                                        </span>
+                                </span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="row-fluid" href="#" data-id="bb28973e-3faf-11f1-aaab-aef48041f928" data-action="is-read-handler" data-placement="bottom" tabindex="-1">
+                                <span class="span1" style="margin-right:15px" rel="tooltip">
+                                    <span class="noti_dot">
+                                        <span sfuuid="218" class="detail"><span class="noti-badge label noti-defaut">
+    <i class="fa fa-flag" aria-hidden="true"></i>
+</span>
+</span>
+                                    </span>
+                                </span>
+                                <span class="span9">
+                                        <b class="ellipsis_inline" data-original-title="Scheduled Maintenance 14:33:00 24-04-2026">Scheduled Maintenance 14:33:00 24-04-2026</b>
+                                        <span class="noti_des" data-original-title="Scheduled maintenance deploy for EMS">Scheduled maintenance deploy for EMS</span>
+                                        <p>
+                                            
+                                            <time datetime="2026-04-24T14:31:59+07:00" class="unread-time" title="24/04/2026 02:31 PM">5 days ago</time>
+                                            
+                                        </p>
+                                </span>
+                                <span class="span1"><span class="noti_dot">
+                                        <i class="unread-notification fas fa-circle" aria-hidden="true"></i>
+                                        </span>
+                                </span>
+                            </a>
+                        </li>
+                    
+                    <li><a class="row-fluid" href="#Notifications" tabindex="-1"><i class="fa fa-bars span1"></i><span class="span8 ellipsis_inline">View Notifications</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </li>
+</ul>
+</div><div><ul class="nav megamenu" id="userList">
+    <li class="dropdown" id="userActions" data-menu="user-actions">
+        <div class="btn-group">
+            <button data-toggle="dropdown" class="btn btn-invisible btn-link dropdown-toggle" rel="tooltip" data-placement="bottom" title="anhtt@scotsenglish.com" track="click:userActions" aria-label="User Menu" aria-haspopup="true" aria-expanded="false">
+                <i class="fal fa-user-cog fa-3X"></i>
+                <i class="fal fa-angle-down"></i>
+            </button>
+            <div class="dropdown-menu scroll pull-right">
+                <ul role="menu">
+                    
+                        <li class="profileactions-profile">
+                        <a href="#profile" track="click:userAction-LBL_PROFILE" tabindex="-1">
+                            <i class="fa fa-user"></i>Profile</a>
+                    </li>
+                    
+                        <li class="profileactions-employees">
+                        <a href="#bwc/index.php?module=EMS_Settings&amp;action=subscription" track="click:userAction-LBL_SUBSCRIPTION" tabindex="-1">
+                            <i class="fa fa-credit-card"></i>Subscription</a>
+                    </li>
+                    
+                        <li class="profileactions-employees">
+                        <a href="#bwc/index.php?module=Users&amp;action=index" track="click:userAction-LBL_USER" tabindex="-1">
+                            <i class="fa fa-user-cog"></i>Users</a>
+                    </li>
+                    
+                        <li class="profileactions-employees">
+                        <a href="#bwc/index.php?module=Teams&amp;action=index" track="click:userAction-Team Management" tabindex="-1">
+                            <i class="fa fa-users"></i>Team Management</a>
+                    </li>
+                    
+                        <li class="administration">
+                        <a href="#bwc/index.php?module=Administration&amp;action=index" track="click:userAction-LBL_ADMIN" tabindex="-1">
+                            <i class="fa fa-cogs"></i>Admin</a>
+                    </li>
+                    
+                        <li class="administration">
+                        <a href="#bwc/index.php?module=ModuleBuilder&amp;action=index&amp;type=studio" track="click:userAction-Studio" tabindex="-1">
+                            <i class="fa fa-tasks"></i>Studio</a>
+                    </li>
+                    
+                        <li class="administration">
+                        <a href="#bwc/index.php?module=Administration&amp;action=Upgrade" track="click:userAction-LBL_REPAIR" tabindex="-1">
+                            <i class="fa fa-wrench"></i>Repair and Rebuild</a>
+                    </li>
+                    
+                        <li class="administration">
+                        <a href="#bwc/index.php?module=Administration&amp;action=ConfigureTabs" track="click:userAction-Display Modules and Subpanels" tabindex="-1">
+                            <i class="fa fa-cog"></i>Display Modules and Subpanels</a>
+                    </li>
+                    
+                        <li class="profileactions-logout">
+                        <a href="#logout/?clear=1" track="click:userAction-LBL_LOGOUT" tabindex="-1">
+                            <i class="fa fa-sign-out"></i>Log Out</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </li>
+</ul>
+</div></div>
+    </div>
+</div>
+</div>
+        <div id="content" style="display: block;" class=""><div class="bwc layout"><div class="bwc-frame"><iframe class="bwc-frame" id="bwc-frame" src="index.php?module=C_Rooms&amp;action=EditView&amp;bwcFrame=1&amp;bwcRedirect=1"></iframe>
+</div></div></div>
+        <div id="sweetspot"><div class="sweetspot-searchbar"><input type="text" name="sweetspot-searchinput">
+<img src="styleguide/assets/img/logo.png" track="click:sweetspot-dotbcube" draggable="false">
+<i data-action="configure" class="fa fa-gear pull-right" track="click:sweetspot-gear-config" tabindex="-1"></i>
+</div><ul class="sweetspot-results"><li data-section="keywords" class="hide">
+    <p>
+    Hotkeys
+    </p>
+    <ul>
+        
+    </ul>
+</li>
+<li data-section="actions" class="hide">
+    <p>
+    Actions
+    </p>
+    <ul>
+        
+    </ul>
+</li>
+<li data-section="records" class="hide">
+    <p>
+    Records
+    </p>
+    <ul>
+        
+        
+
+    </ul>
+</li>
+</ul></div>
+        <div id="drawers"></div>
+        <div id="footer"><footer>
+    <div class="table-row">
+        <div class="table-cell">
+            <a href="#Home" title="DotBCRM" class="logo"><img data-metadata="logo" src="themes/default/images/company_logo.png" alt="DotBCRM"></a>
+        </div>
+        <div class="table-cell">
+            <div class="btn-toolbar pull-right"><span style="display: inline;">
+<span class="dropdown" data-action="languageList" id="languageList">
+        <button title="Language: English" aria-label="Language: English" class="btn btn-invisible dropdown-toggle" data-toggle="dropdown" role="button" type="button" aria-haspopup="true" aria-expanded="false">
+            <i class="far fa-language"></i><span class="action-label">Language: <img src="themes/Dotb/images/flag_en_us.svg" class="moduleIcon">English</span>
+        </button>
+        <div class="dropdown-menu bottom-up" style="max-height: 624px;">
+            <ul role="menu">
+                
+                <li><a data-lang-key="en_us" href="javascript:void(0)" tabindex="-1"><img src="themes/Dotb/images/flag_en_us.svg" class="moduleIcon"><strong style="vertical-align: middle;">English (US)</strong></a></li>
+                
+                <li><a data-lang-key="vn_vn" href="javascript:void(0)" tabindex="-1"><img src="themes/Dotb/images/flag_vn_vn.svg" class="moduleIcon"><span style="vertical-align: middle;">Tiếng Việt</span></a></li>
+                
+            </ul>
+        </div>
+</span>
+</span><div style="display: inline;">
+
+<audio style="display: none" id="audio"></audio>
+<button type="button" class="btn btn-invisible" onclick="window.open('https://ems.help.dotb.vn')"><i class="far fa-question-circle"></i><span class="action-label"> Help</span></button>
+<button id="open-chatbot" type="button" class="btn btn-invisible" style="display: none">
+    <i class="far fa-comment"></i>
+    <span class="action-label">Chatbot</span>
+    <span class="badge badge-beta">BETA</span>
+</button>
+<button id="create-ticket" type="button" class="btn btn-invisible"><i class="far fa-pencil-square-o"></i><span class="action-label"> Ticket support</span></button>
+</div></div>
+        </div>
+    </div>
+</footer></div>
+    </div>
+</div>
+<script type="text/javascript" src="cache/javascript/bwc/lumia_9445dcaeaba1dd2c4b0e575ffa9d9106.js"></script>
+<script type="text/javascript" src="cache/javascript/dotbcrm.min.js"></script>
+<script src="cache/javascript/dotbcrm8.js"></script>
+<script src="cache/config.js?hash=$configHash"></script>
+    <script src="cache/javascript/dotbcrm7_18be110a4ff4db70baf7582054158012.js"></script>
+
+<script language="javascript">
+    var parentIsDotBCRM = false;
+    try {
+        parentIsDotBCRM = (parent.window != window)
+            && (typeof parent.DOTB != "undefined")
+            && (typeof parent.DOTB.App.router != "undefined");
+    } catch (e) {
+    }
+    if (parentIsDotBCRM) {
+        parent.DOTB.App.router.navigate("#Home", {trigger: true});
+    } else {
+        var App;
+        
+        App = DOTB.App.init({
+            el: "#lumia",
+            callback: function (app) {
+                app.progress.set(0.6);
+                app.once("app:view:change", function () {
+                    app.progress.done();
+                });
+                app.alert.dismissAll();
+                app.start();
+            }
+        });
+        App.api.debug = App.config.debugDotbApi;
+    }
+</script>
+
+<link rel="stylesheet" href="cache/css/dotbcrm0.min.css" type="text/css">
+    <script src="cache/javascript/dotbcrm5_d1270c3f793696354b8841f4af9a062a.js"></script>
+
+    <script src="cache/javascript/dotbcrm9_2e579d4d37296fe7a72a260321f26e41.js"></script>
+    <script src="cache/javascript/dotbcrm10_d091e5272051b5c4046f8a32f2a470f8.js"></script>
+<audio id="audio"></audio>
+
+<div id="jstree-marker" style="display: none;">»</div><div id="jstree-marker-line" style="display: none;"></div><div id="vakata-contextmenu"></div>
