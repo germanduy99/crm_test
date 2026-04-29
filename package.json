@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "test:cypress": "start-server-and-test start http://localhost:8080 cypress",
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "collect:selectors": "cypress run --spec cypress/e2e/introspection/selector-library-collector.cy.js --browser electron --config pageLoadTimeout=120000,defaultCommandTimeout=15000,video=false"
   },
   "keywords": [],
   "author": "",
